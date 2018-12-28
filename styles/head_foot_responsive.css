@@ -333,13 +333,15 @@
 		font-size: 12px;
         margin-top: 1px;
 	}
+/*
 	.wishlist_icon
 	{
 		width: 20px;
 	}
+*/
 	.cart_content
 	{
-		margin-left: 6px;
+		margin-left: 10px;
 	}
 	.cart_icon
 	{
@@ -358,6 +360,12 @@
     .wishlist_icon img,
     .cart_icon img{
         width: 100%;
+    }
+    .wishlist_icon i,
+    .cart_icon i{
+        font-size: 10px;
+        padding: 5px;
+        margin-right: 0px;
     }
 	.top_bar_user
 	{

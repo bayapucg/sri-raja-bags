@@ -473,6 +473,9 @@
 	-o-transform: translateX(-37px);
 	transform: translateX(-37px);
 }
+.sidebar_section select{
+    max-width: 195px;
+}
 .sidebar_title
 {
 	font-size: 18px;

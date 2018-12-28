@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-<title>Single Product</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="OneTech shop project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/head_foot.css">
-<link rel="stylesheet" type="text/css" href="styles/head_foot_responsive.css">
-<link rel="stylesheet" type="text/css" href="styles/product_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
-
+    <title>Shop</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="OneTech shop project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="styles/head_foot.css">
+    <link rel="stylesheet" type="text/css" href="styles/head_foot_responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/shop_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/shop_responsive.css">
 </head>
 
 <body>
 
 <div class="super_container">
 	
-	<!-- Header -->
+    <!-- Header -->
 
     <header class="header">
 
@@ -33,36 +35,18 @@
                 <div class="row">
                     <div class="col d-flex flex-row">
                         <div class="top_bar_contact_item">
-                            <div class="top_bar_icon"><img src="images/phone.png" alt=""></div>+91 xxx 005 xx70
+                            <div class="top_bar_icon"><i style="font-size:20px;" class="fa fa-mobile" aria-hidden="true"></i></div>+91 xxx 005 xx70
                         </div>
                         <div class="top_bar_contact_item">
-                            <div class="top_bar_icon"><img src="images/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
+                            <div class="top_bar_icon"><i style="font-size:15px;" class="fa fa-envelope-o" aria-hidden="true"></i></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
                         </div>
                         <div class="top_bar_content ml-auto">
-                            <!--div class="top_bar_menu">
-                                <ul class="standard_dropdown top_bar_dropdown">
-                                    <li>
-                                        <a href="#">English<i class="fas fa-chevron-down"></i></a>
-                                        <ul>
-                                            <li><a href="#">Italian</a></li>
-                                            <li><a href="#">Spanish</a></li>
-                                            <li><a href="#">Japanese</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">₹  US dollar<i class="fas fa-chevron-down"></i></a>
-                                        <ul>
-                                            <li><a href="#">EUR Euro</a></li>
-                                            <li><a href="#">GBP British Pound</a></li>
-                                            <li><a href="#">JPY Japanese Yen</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>-->
+
                             <div class="top_bar_user">
-                                <div class="user_icon"><img src="images/user.svg" alt=""></div>
-                                <div><a href="#">Register</a></div>
-                                <div><a href="#">Sign in</a></div>
+                                <div class="user_icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+                                <div><a class="text-white" href="#">Register</a></div>
+                                <div class="user_icon"><i style="font-size:16px;" class="fa fa-sign-in" aria-hidden="true"></i></div>
+                                <div><a class="text-white" href="#">Sign in</a></div>
                             </div>
                         </div>
                     </div>
@@ -79,7 +63,7 @@
                     <!-- Logo -->
                     <div class="col-lg-2 col-sm-3 col-3 order-1">
                         <div class="logo_container">
-                            <div class="logo"><a href="index.html"><img style="width:100px;height:auto;" src="images/logo.png" class="img-responsive"></a></div>
+                            <div class="logo"><a href="index.php"><img style="width:100px;height:auto;" src="images/logo.png" class="img-responsive"></a></div>
                         </div>
                     </div>
 
@@ -95,17 +79,17 @@
                                                 <span class="custom_dropdown_placeholder clc">All Categories</span>
                                                 <i class="fas fa-chevron-down"></i>
                                                 <ul class="custom_list clc">
-                                                    <li><a class="clc" href="shop.html">All Categories</a></li>
-                                                    <li><a class="clc" href="shop.html">D-Cut Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Handle Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">U- Cut Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Gazetted Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Plain Sheets</a></li>
-                                                    <li><a class="clc" href="shop.html">Model Number Sheets</a></li>
-                                                    <li><a class="clc" href="shop.html">Missprint Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Printed Rolls</a></li>
-                                                    <li><a class="clc" href="shop.html">Printed sheets</a></li>
-                                                    <li><a class="clc" href="shop.html">Printed Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">All Categories</a></li>
+                                                    <li><a class="clc" href="shop.php">D-Cut Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Handle Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">U- Cut Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Gazetted Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Plain Sheets</a></li>
+                                                    <li><a class="clc" href="shop.php">Model Number Sheets</a></li>
+                                                    <li><a class="clc" href="shop.php">Missprint Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Printed Rolls</a></li>
+                                                    <li><a class="clc" href="shop.php">Printed sheets</a></li>
+                                                    <li><a class="clc" href="shop.php">Printed Bags</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -120,7 +104,7 @@
                     <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
                         <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
                             <div class="wishlist d-flex flex-row align-items-center justify-content-end">
-                                <div class="wishlist_icon"><img src="images/heart.png" alt=""></div>
+                                <div class="wishlist_icon"><i class="fa fa-heart" aria-hidden="true"></i></div>
                                 <div class="wishlist_content">
                                     <div class="wishlist_text"><a href="#">Wishlist</a></div>
                                     <div class="wishlist_count">115</div>
@@ -131,7 +115,7 @@
                             <div class="cart">
                                 <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                                     <div class="cart_icon">
-                                        <img src="images/cart.png" alt="">
+                                        <i class="fas fa-shopping-bag"></i>
                                         <div class="cart_count"><span>10</span></div>
                                     </div>
                                     <div class="cart_content">
@@ -164,16 +148,16 @@
                                 </div>
 
                                 <ul class="cat_menu">
-                                    <li><a href="shop.html">D-Cut Bags <i class="fas fa-chevron-right ml-auto"></i></a></li>
-                                    <li><a href="shop.html">Handle Bags <i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">U-Cut Bags <i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Gazetted Bags<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Plain Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Model Number Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Missprint Bags<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Printed Rolls<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Printed Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Printed Bags<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">D-Cut Bags <i class="fas fa-chevron-right ml-auto"></i></a></li>
+                                    <li><a href="shop.php">Handle Bags <i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">U-Cut Bags <i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Gazetted Bags<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Plain Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Model Number Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Missprint Bags<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Printed Rolls<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Printed Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Printed Bags<i class="fas fa-chevron-right"></i></a></li>
                                     <!--<li class="hassubs">
                                         <a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
                                         <ul>
@@ -198,10 +182,10 @@
 
                             <div class="main_nav_menu ml-5">
                                 <ul class="standard_dropdown main_nav_dropdown">
-                                    <li><a href="index.html">Home<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="index.php">Home<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
-                                    <li><a href="shop.html">Products<i class="fas fa-chevron-down"></i></a></li>
-                                    <li><a href="product.html">Single Product<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="#">Contact<i class="fas fa-chevron-down"></i></a></li>
                                     <!--<li class="hassubs">
@@ -239,8 +223,8 @@
                                     <li class="hassubs">
                                         <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
                                         <ul>
-                                            <li><a href="shop.html">Shop<i class="fas fa-chevron-down"></i></a></li>
-                                            <li><a href="product.html">Product<i class="fas fa-chevron-down"></i></a></li>
+                                            <li><a href="shop.php">Shop<i class="fas fa-chevron-down"></i></a></li>
+                                            <li><a href="product.php">Product<i class="fas fa-chevron-down"></i></a></li>
                                             <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
                                             <li><a href="blog_single.html">Blog Post<i class="fas fa-chevron-down"></i></a></li>
                                             <li><a href="regular.html">Regular Post<i class="fas fa-chevron-down"></i></a></li>
@@ -305,8 +289,8 @@
                                     <a href="#">Home<i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <li class="page_menu_item"><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="page_menu_item"><a href="shop.html">Products<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="page_menu_item"><a href="product.html">Single Product<i class="fas fa-chevron-down"></i></a></li>
+                                <li class="page_menu_item"><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
+                                <li class="page_menu_item"><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
                                 <li class="page_menu_item"><a href="blog.html">blog<i class="fa fa-angle-down"></i></a></li>
                                 <li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
                                 <!--<li class="page_menu_item has-children">
@@ -362,81 +346,519 @@
         </div>
 
     </header>
+	
+	<!-- Home -->
 
-	<!-- Single Product -->
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/shop_background.jpg"></div>
+		<div class="home_overlay"></div>
+		<div class="home_content d-flex flex-column align-items-center justify-content-center">
+			<h1 class="home_title">Products</h1>
+		</div>
+	</div>
 
-	<div class="single_product">
+	<!-- Shop -->
+
+	<div class="shop">
 		<div class="container">
 			<div class="row">
+				<div class="col-lg-3 col-md-3">
 
-				<!-- Images -->
-				<div class="col-lg-2 order-lg-1 order-2">
-					<ul class="image_list">
-						<li data-image="images/featured_2.jpg"><img src="images/featured_2.jpg" alt=""></li>
-						<li data-image="images/featured_3.jpg"><img src="images/featured_3.jpg" alt=""></li>
-						<li data-image="images/featured_4.jpg"><img src="images/featured_4.jpg" alt=""></li>
-					</ul>
-				</div>
-
-				<!-- Selected Image -->
-				<div class="col-lg-5 order-lg-2 order-1">
-					<div class="image_selected"><img src="images/featured_2.jpg" alt=""></div>
-				</div>
-
-				<!-- Description -->
-				<div class="col-lg-5 order-3">
-					<div class="product_description">
-						<div class="product_category">Bags</div>
-						<div class="product_name">D-Cut, U-Cut Bags</div>
-						<div class="rating_r rating_r_4 product_rating"><i></i><i></i><i></i><i></i><i></i></div>
-						<div class="product_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum. laoreet turpis, nec sollicitudin dolor cursus at. Maecenas aliquet, dolor a faucibus efficitur, nisi tellus cursus urna, eget dictum lacus turpis.</p></div>
-						<div class="order_info d-flex flex-row">
-							<form action="#">
-								<div class="clearfix" style="z-index: 1000;">
-
-									<!-- Product Quantity -->
-									<div class="product_quantity clearfix">
-										<span>Quantity: </span>
-										<input id="quantity_input" type="text" pattern="[0-9]*" value="1">
-										<div class="quantity_buttons">
-											<div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
-											<div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
-										</div>
-									</div>
-
-									<!-- Product Color -->
-									<ul class="product_color">
-										<li>
-											<span>Color: </span>
-											<div class="color_mark_container"><div id="selected_color" class="color_mark"></div></div>
-											<div class="color_dropdown_button"><i class="fas fa-chevron-down"></i></div>
-
-											<ul class="color_list">
-												<li><div class="color_mark" style="background: #999999;"></div></li>
-												<li><div class="color_mark" style="background: #b19c83;"></div></li>
-												<li><div class="color_mark" style="background: #000000;"></div></li>
-											</ul>
-										</li>
-									</ul>
-
-								</div>
-
-								<div class="product_price">₹ 2000.00</div>
-								<div class="button_container">
-									<button type="button" class="button cart_button">Add to Cart</button>
-									<div class="product_fav"><i class="fas fa-heart"></i></div>
-								</div>
-								
-							</form>
+					<!-- Shop Sidebar -->
+					<div class="shop_sidebar">
+						<div class="sidebar_section">
+							<div class="sidebar_title">Categories</div>
+							<ul class="sidebar_categories1">
+								<li><a href="shop.html">D-Cut Bags</a></li>
+                                <li><a href="shop.html">Handle Bags</a></li>
+                                <li><a href="shop.html">U- Cut Bags</a></li>
+                                <li><a href="shop.html">Gazetted Bags</a></li>
+                                <li><a href="shop.html">Plain Sheets</a></li>
+							</ul>
+                            <ul class="sidebar_categories2">
+                                <li><a href="shop.html">Model Number Sheets</a></li>
+                                <li><a href="shop.html">Missprint Bags</a></li>
+                                <li><a href="shop.html">Printed Rolls</a></li>
+                                <li><a href="shop.html">Printed sheets</a></li>
+                                <li><a href="shop.html">Printed Bags</a></li>
+                            </ul>
 						</div>
+                        <div class="clearfix">&nbsp;</div>
+						<div class="sidebar_section filter_by_section">
+							<div class="sidebar_title">Filter By</div>
+							<div class="sidebar_subtitle">Price</div>
+							<div class="filter_price">
+								<div id="slider-range" class="slider_range"></div>
+								<p>Range: </p>
+								<p><input type="text" id="amount" class="amount" readonly style="border:0; font-weight:bold;"></p>
+							</div>
+						</div>
+                        <div class="sidebar_section">
+                            <div class="form-group">
+                                <label class="sidebar_subtitle">Material Type</label>
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>Type 1</option>
+                                    <option>Type 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="sidebar_section">
+                            <div class="form-group">
+                                <label class="sidebar_subtitle">Bag Size</label>
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>Size 1</option>
+                                    <option>Size 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="sidebar_section">
+							<div class="sidebar_subtitle color_subtitle">Bag Color</div>
+							<ul class="colors_list">
+								<li class="color"><a href="#" style="background: #b19c83;"></a></li>
+								<li class="color"><a href="#" style="background: #000000;"></a></li>
+								<li class="color"><a href="#" style="background: #999999;"></a></li>
+								<li class="color"><a href="#" style="background: #0e8ce4;"></a></li>
+								<li class="color"><a href="#" style="background: #df3b3b;"></a></li>
+								<li class="color"><a href="#" style="background: #ffffff; border: solid 1px #e1e1e1;"></a></li>
+							</ul>
+						</div>
+                        <div class="sidebar_section">
+                            <div class="form-group">
+                                <label class="sidebar_subtitle">Bag GSM</label>
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>GSM 1</option>
+                                    <option>GSM 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="sidebar_section">
+                            <div class="form-group">
+                                <label class="sidebar_subtitle">Handle Type</label>
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>Type 1</option>
+                                    <option>Type 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="sidebar_section">
+							<div class="sidebar_subtitle color_subtitle">Sidepatty Color</div>
+							<ul class="colors_list">
+								<li class="color"><a href="#" style="background: #b19c83;"></a></li>
+								<li class="color"><a href="#" style="background: #000000;"></a></li>
+								<li class="color"><a href="#" style="background: #999999;"></a></li>
+								<li class="color"><a href="#" style="background: #0e8ce4;"></a></li>
+								<li class="color"><a href="#" style="background: #df3b3b;"></a></li>
+								<li class="color"><a href="#" style="background: #ffffff; border: solid 1px #e1e1e1;"></a></li>
+							</ul>
+						</div>
+                        <div class="sidebar_section">
+                            <div class="form-group">
+                                <label class="sidebar_subtitle">Sidepatty GSM</label>
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>GSM 1</option>
+                                    <option>GSM 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="sidebar_section">
+                            <div class="form-group">
+                                <label class="sidebar_subtitle">Printing Type</label>
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>Type 1</option>
+                                    <option>Type 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="sidebar_section">
+                            <div class="form-group">
+                                <label class="sidebar_subtitle">Model Number</label>
+                                <select class="form-control">
+                                    <option>select</option>
+                                    <option>Number 1</option>
+                                    <option>Number 2</option>
+                                </select>
+                            </div>
+                        </div>
+						<!--<div class="sidebar_section">
+							<div class="sidebar_subtitle sizes_subtitle">Sizes</div>
+							<ul class="sizes_list">
+								<li class="size"><a href="#">1 inch - 5 inch</a></li>
+								<li class="size"><a href="#">5 inch - 15 inch</a></li>
+								<li class="size"><a href="#">15 inch - 30 inch</a></li>
+								<li class="size"><a href="#">30 inch - 50 inch</a></li>
+								<li class="size"><a href="#">> 50 inch</a></li>
+							</ul>
+						</div>
+                        <div class="sidebar_section">
+							<div class="sidebar_subtitle brands_subtitle">Brands</div>
+							<ul class="brands_list">
+								<li class="brand"><a href="#">Brand 1</a></li>
+								<li class="brand"><a href="#">Brand 2</a></li>
+								<li class="brand"><a href="#">Brand 3</a></li>
+								<li class="brand"><a href="#">Brand 4</a></li>
+								<li class="brand"><a href="#">Brand 5</a></li>
+								<li class="brand"><a href="#">Brand 6</a></li>
+							</ul>
+						</div>-->
 					</div>
+
 				</div>
 
+				<div class="col-lg-9 col-md-9">
+					
+					<!-- Shop Content -->
+
+					<div class="shop_content">
+						<div class="shop_bar clearfix">
+							<div class="shop_product_count"><span>186</span> products found</div>
+							<div class="shop_sorting">
+								<span>Sort by:</span>
+								<ul>
+									<li>
+										<span class="sorting_text">highest rated<i class="fas fa-chevron-down"></i></span>
+										<ul>
+											<li class="shop_sorting_button" data-isotope-option='{ "sortBy": "original-order" }'>highest rated</li>
+											<li class="shop_sorting_button" data-isotope-option='{ "sortBy": "name" }'>name</li>
+											<li class="shop_sorting_button"data-isotope-option='{ "sortBy": "price" }'>price</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="product_grid">
+							<div class="product_grid_border"></div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 1</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item discount">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_10.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225<span>₹ 300</span></div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 10</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_11.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 11</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_12.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 12</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_13.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 13</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_14.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 14</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379<span>₹ 300</span></div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 2</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225<span>₹ 300</span></div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 3</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 4</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 5</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 6</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 6</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 7</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 8</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item discount">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_9.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225<span>₹ 300</span></div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 9</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 1</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_10.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 10</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_13.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 13</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_14.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 225</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 14</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product_item is_new">
+								<div class="product_border"></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.jpg" alt=""></div>
+								<div class="product_content">
+									<div class="product_price">₹ 379</div>
+									<div class="product_name"><div><a href="product.html" tabindex="0">Product 2</a></div></div>
+								</div>
+								<div class="product_fav"><i class="fas fa-heart"></i></div>
+								<ul class="product_marks">
+									<li class="product_mark product_discount">-25%</li>
+									<li class="product_mark product_new">new</li>
+								</ul>
+							</div>
+
+						</div>
+
+						<!-- Shop Page Navigation -->
+
+						<div class="shop_page_nav d-flex flex-row">
+							<div class="page_prev d-flex flex-column align-items-center justify-content-center"><i class="fas fa-chevron-left"></i></div>
+							<ul class="page_nav d-flex flex-row">
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">...</a></li>
+								<li><a href="#">21</a></li>
+							</ul>
+							<div class="page_next d-flex flex-column align-items-center justify-content-center"><i class="fas fa-chevron-right"></i></div>
+						</div>
+
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</div>
 
-    <!-- Recently Viewed -->
+	<!-- Recently Viewed -->
 
     <div class="viewed">
         <div class="container">
@@ -587,7 +1009,8 @@
                 <div class="col-lg-3 footer_col">
                     <div class="footer_column footer_contact">
                         <div class="logo_container">
-                            <div class="logo"><a href="#">SRB</a></div>
+                            <div style="background:#fff;
+                            padding:10px;"><a href="index.php"><img src="images/logo.png" style="width:100px;height:auto;"></a></div>
                         </div>
                         <div class="footer_contact_text">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
@@ -634,8 +1057,8 @@
                         <div class="footer_title">Quick Links</div>
                         <ul class="footer_list">
                             <li><a href="#">About Us</a></li>
-                            <li><a href="shop.html">Products</a></li>
-                            <li><a href="product.html">Single Product</a></li>
+                            <li><a href="shop.php">Products</a></li>
+                            <li><a href="product.php">Single Product</a></li>
                             <li><a href="blog.html">Blog</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
@@ -657,7 +1080,7 @@
                         <div class="copyright_content">
                             Copyright &copy;<script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | Developed by <a href="https://colorlib.com" target="_blank">http://prachatech.com/</a>
+                            </script> All rights reserved | Developed by <strong><a href="#" target="_blank"> http://prachatech.com/</a></strong>
                         </div>
                     </div>
                 </div>
@@ -677,7 +1100,10 @@
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/product_custom.js"></script>
+<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/shop_custom.js"></script>
 </body>
 
 </html>

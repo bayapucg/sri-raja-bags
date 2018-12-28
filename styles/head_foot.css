@@ -281,7 +281,7 @@ section
 }
 .top_bar_contact_item
 {
-    padding: 10px 0px;
+    padding: 8px 0px;
 	font-weight: 300;
 	margin-right: 40px;
 }
@@ -311,11 +311,11 @@ section
 {
 	display: inline-block;
 	margin-right: 14px;
-	-webkit-transform: translateY(2px);
-	-moz-transform: translateY(2px);
-	-ms-transform: translateY(2px);
-	-o-transform: translateY(2px);
-	transform: translateY(2px);
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	transform: translateY(0px);
 }
 .top_bar_menu
 {
@@ -421,11 +421,11 @@ section
 {
 	display: inline-block;
 	margin-right: 7px;
-	-webkit-transform: translateY(-2px);
-	-moz-transform: translateY(-2px);
-	-ms-transform: translateY(-2px);
-	-o-transform: translateY(-2px);
-	transform: translateY(-2px);
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	transform: translateY(0px);
 	width: 15px;
 }
 .user_icon img
@@ -689,7 +689,7 @@ select
 	display: inline;
 	border: 0;
 	width: auto;
-	margin-left: 10px;
+	margin-left: 0px;
 	outline: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -737,6 +737,14 @@ select option
 	width: 70%;
     padding: 15%;
     border: 1px solid #bdbdbd;
+}
+.wishlist_icon i
+{
+    font-size: 20px;
+	padding: 6px;
+    border: 1px solid #bdbdbd;
+    margin-right: 15px;
+    color: #16225a;
 }
 .wishlist_content
 {
@@ -790,6 +798,14 @@ select option
 	width: 72%;
     padding: 15%;
     border: 1px solid #bdbdbd;
+}
+.cart_icon i
+{
+	font-size: 20px;
+	padding: 6px;
+    border: 1px solid #bdbdbd;
+    margin-right: 15px;
+    color: #16225a;
 }
 .cart_content
 {

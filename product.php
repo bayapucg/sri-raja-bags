@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-<title>Single Product</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="OneTech shop project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/head_foot.css">
-<link rel="stylesheet" type="text/css" href="styles/head_foot_responsive.css">
-<link rel="stylesheet" type="text/css" href="styles/product_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
+    <title>Single Product</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="OneTech shop project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/head_foot.css">
+    <link rel="stylesheet" type="text/css" href="styles/head_foot_responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/product_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
 
 </head>
 
@@ -22,7 +24,7 @@
 
 <div class="super_container">
 	
-	<!-- Header -->
+    <!-- Header -->
 
     <header class="header">
 
@@ -33,36 +35,18 @@
                 <div class="row">
                     <div class="col d-flex flex-row">
                         <div class="top_bar_contact_item">
-                            <div class="top_bar_icon"><img src="images/phone.png" alt=""></div>+91 xxx 005 xx70
+                            <div class="top_bar_icon"><i style="font-size:20px;" class="fa fa-mobile" aria-hidden="true"></i></div>+91 xxx 005 xx70
                         </div>
                         <div class="top_bar_contact_item">
-                            <div class="top_bar_icon"><img src="images/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
+                            <div class="top_bar_icon"><i style="font-size:15px;" class="fa fa-envelope-o" aria-hidden="true"></i></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
                         </div>
                         <div class="top_bar_content ml-auto">
-                            <!--div class="top_bar_menu">
-                                <ul class="standard_dropdown top_bar_dropdown">
-                                    <li>
-                                        <a href="#">English<i class="fas fa-chevron-down"></i></a>
-                                        <ul>
-                                            <li><a href="#">Italian</a></li>
-                                            <li><a href="#">Spanish</a></li>
-                                            <li><a href="#">Japanese</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">₹  US dollar<i class="fas fa-chevron-down"></i></a>
-                                        <ul>
-                                            <li><a href="#">EUR Euro</a></li>
-                                            <li><a href="#">GBP British Pound</a></li>
-                                            <li><a href="#">JPY Japanese Yen</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>-->
+
                             <div class="top_bar_user">
-                                <div class="user_icon"><img src="images/user.svg" alt=""></div>
-                                <div><a href="#">Register</a></div>
-                                <div><a href="#">Sign in</a></div>
+                                <div class="user_icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+                                <div><a class="text-white" href="#">Register</a></div>
+                                <div class="user_icon"><i style="font-size:16px;" class="fa fa-sign-in" aria-hidden="true"></i></div>
+                                <div><a class="text-white" href="#">Sign in</a></div>
                             </div>
                         </div>
                     </div>
@@ -79,7 +63,7 @@
                     <!-- Logo -->
                     <div class="col-lg-2 col-sm-3 col-3 order-1">
                         <div class="logo_container">
-                            <div class="logo"><a href="index.html"><img style="width:100px;height:auto;" src="images/logo.png" class="img-responsive"></a></div>
+                            <div class="logo"><a href="index.php"><img style="width:100px;height:auto;" src="images/logo.png" class="img-responsive"></a></div>
                         </div>
                     </div>
 
@@ -95,17 +79,17 @@
                                                 <span class="custom_dropdown_placeholder clc">All Categories</span>
                                                 <i class="fas fa-chevron-down"></i>
                                                 <ul class="custom_list clc">
-                                                    <li><a class="clc" href="shop.html">All Categories</a></li>
-                                                    <li><a class="clc" href="shop.html">D-Cut Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Handle Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">U- Cut Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Gazetted Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Plain Sheets</a></li>
-                                                    <li><a class="clc" href="shop.html">Model Number Sheets</a></li>
-                                                    <li><a class="clc" href="shop.html">Missprint Bags</a></li>
-                                                    <li><a class="clc" href="shop.html">Printed Rolls</a></li>
-                                                    <li><a class="clc" href="shop.html">Printed sheets</a></li>
-                                                    <li><a class="clc" href="shop.html">Printed Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">All Categories</a></li>
+                                                    <li><a class="clc" href="shop.php">D-Cut Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Handle Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">U- Cut Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Gazetted Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Plain Sheets</a></li>
+                                                    <li><a class="clc" href="shop.php">Model Number Sheets</a></li>
+                                                    <li><a class="clc" href="shop.php">Missprint Bags</a></li>
+                                                    <li><a class="clc" href="shop.php">Printed Rolls</a></li>
+                                                    <li><a class="clc" href="shop.php">Printed sheets</a></li>
+                                                    <li><a class="clc" href="shop.php">Printed Bags</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -120,7 +104,7 @@
                     <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
                         <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
                             <div class="wishlist d-flex flex-row align-items-center justify-content-end">
-                                <div class="wishlist_icon"><img src="images/heart.png" alt=""></div>
+                                <div class="wishlist_icon"><i class="fa fa-heart" aria-hidden="true"></i></div>
                                 <div class="wishlist_content">
                                     <div class="wishlist_text"><a href="#">Wishlist</a></div>
                                     <div class="wishlist_count">115</div>
@@ -131,7 +115,7 @@
                             <div class="cart">
                                 <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                                     <div class="cart_icon">
-                                        <img src="images/cart.png" alt="">
+                                        <i class="fas fa-shopping-bag"></i>
                                         <div class="cart_count"><span>10</span></div>
                                     </div>
                                     <div class="cart_content">
@@ -164,16 +148,16 @@
                                 </div>
 
                                 <ul class="cat_menu">
-                                    <li><a href="shop.html">D-Cut Bags <i class="fas fa-chevron-right ml-auto"></i></a></li>
-                                    <li><a href="shop.html">Handle Bags <i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">U-Cut Bags <i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Gazetted Bags<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Plain Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Model Number Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Missprint Bags<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Printed Rolls<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Printed Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                    <li><a href="shop.html">Printed Bags<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">D-Cut Bags <i class="fas fa-chevron-right ml-auto"></i></a></li>
+                                    <li><a href="shop.php">Handle Bags <i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">U-Cut Bags <i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Gazetted Bags<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Plain Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Model Number Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Missprint Bags<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Printed Rolls<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Printed Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.php">Printed Bags<i class="fas fa-chevron-right"></i></a></li>
                                     <!--<li class="hassubs">
                                         <a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
                                         <ul>
@@ -198,10 +182,10 @@
 
                             <div class="main_nav_menu ml-5">
                                 <ul class="standard_dropdown main_nav_dropdown">
-                                    <li><a href="index.html">Home<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="index.php">Home<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
-                                    <li><a href="shop.html">Products<i class="fas fa-chevron-down"></i></a></li>
-                                    <li><a href="product.html">Single Product<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="#">Contact<i class="fas fa-chevron-down"></i></a></li>
                                     <!--<li class="hassubs">
@@ -239,8 +223,8 @@
                                     <li class="hassubs">
                                         <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
                                         <ul>
-                                            <li><a href="shop.html">Shop<i class="fas fa-chevron-down"></i></a></li>
-                                            <li><a href="product.html">Product<i class="fas fa-chevron-down"></i></a></li>
+                                            <li><a href="shop.php">Shop<i class="fas fa-chevron-down"></i></a></li>
+                                            <li><a href="product.php">Product<i class="fas fa-chevron-down"></i></a></li>
                                             <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
                                             <li><a href="blog_single.html">Blog Post<i class="fas fa-chevron-down"></i></a></li>
                                             <li><a href="regular.html">Regular Post<i class="fas fa-chevron-down"></i></a></li>
@@ -305,8 +289,8 @@
                                     <a href="#">Home<i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <li class="page_menu_item"><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="page_menu_item"><a href="shop.html">Products<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="page_menu_item"><a href="product.html">Single Product<i class="fas fa-chevron-down"></i></a></li>
+                                <li class="page_menu_item"><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
+                                <li class="page_menu_item"><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
                                 <li class="page_menu_item"><a href="blog.html">blog<i class="fa fa-angle-down"></i></a></li>
                                 <li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
                                 <!--<li class="page_menu_item has-children">
@@ -578,7 +562,7 @@
         </div>
     </div>
 
-    <!-- Footer -->
+   <!-- Footer -->
 
     <footer class="footer">
         <div class="container">
@@ -587,7 +571,8 @@
                 <div class="col-lg-3 footer_col">
                     <div class="footer_column footer_contact">
                         <div class="logo_container">
-                            <div class="logo"><a href="#">SRB</a></div>
+                            <div style="background:#fff;
+                            padding:10px;"><a href="index.php"><img src="images/logo.png" style="width:100px;height:auto;"></a></div>
                         </div>
                         <div class="footer_contact_text">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
@@ -634,8 +619,8 @@
                         <div class="footer_title">Quick Links</div>
                         <ul class="footer_list">
                             <li><a href="#">About Us</a></li>
-                            <li><a href="shop.html">Products</a></li>
-                            <li><a href="product.html">Single Product</a></li>
+                            <li><a href="shop.php">Products</a></li>
+                            <li><a href="product.php">Single Product</a></li>
                             <li><a href="blog.html">Blog</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
@@ -657,7 +642,7 @@
                         <div class="copyright_content">
                             Copyright &copy;<script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | Developed by <a href="https://colorlib.com" target="_blank">http://prachatech.com/</a>
+                            </script> All rights reserved | Developed by <strong><a href="#" target="_blank"> http://prachatech.com/</a></strong>
                         </div>
                     </div>
                 </div>

@@ -40,13 +40,14 @@
                                 <div class="top_bar_icon"><i style="font-size:20px;" class="fa fa-mobile" aria-hidden="true"></i></div>+91 xxx 005 xx70
                             </div>
                             <div class="top_bar_contact_item">
-                                <div class="top_bar_icon"><i style="font-size:20px;"class="fa fa-envelope-o" aria-hidden="true"></i></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
+                                <div class="top_bar_icon"><i style="font-size:15px;" class="fa fa-envelope-o" aria-hidden="true"></i></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
                                 
                                 <div class="top_bar_user">
                                     <div class="user_icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
                                     <div><a class="text-white" href="#">Register</a></div>
+                                    <div class="user_icon"><i style="font-size:16px;" class="fa fa-sign-in" aria-hidden="true"></i></div>
                                     <div><a class="text-white" href="#">Sign in</a></div>
                                 </div>
                             </div>
@@ -80,17 +81,17 @@
                                                     <span class="custom_dropdown_placeholder clc">All Categories</span>
                                                     <i class="fas fa-chevron-down"></i>
                                                     <ul class="custom_list clc">
-                                                        <li><a class="clc" href="shop.html">All Categories</a></li>
-                                                        <li><a class="clc" href="shop.html">D-Cut Bags</a></li>
-                                                        <li><a class="clc" href="shop.html">Handle Bags</a></li>
-                                                        <li><a class="clc" href="shop.html">U- Cut Bags</a></li>
-                                                        <li><a class="clc" href="shop.html">Gazetted Bags</a></li>
-                                                        <li><a class="clc" href="shop.html">Plain Sheets</a></li>
-                                                        <li><a class="clc" href="shop.html">Model Number Sheets</a></li>
-                                                        <li><a class="clc" href="shop.html">Missprint Bags</a></li>
-                                                        <li><a class="clc" href="shop.html">Printed Rolls</a></li>
-                                                        <li><a class="clc" href="shop.html">Printed sheets</a></li>
-                                                        <li><a class="clc" href="shop.html">Printed Bags</a></li>
+                                                        <li><a class="clc" href="shop.php">All Categories</a></li>
+                                                        <li><a class="clc" href="shop.php">D-Cut Bags</a></li>
+                                                        <li><a class="clc" href="shop.php">Handle Bags</a></li>
+                                                        <li><a class="clc" href="shop.php">U- Cut Bags</a></li>
+                                                        <li><a class="clc" href="shop.php">Gazetted Bags</a></li>
+                                                        <li><a class="clc" href="shop.php">Plain Sheets</a></li>
+                                                        <li><a class="clc" href="shop.php">Model Number Sheets</a></li>
+                                                        <li><a class="clc" href="shop.php">Missprint Bags</a></li>
+                                                        <li><a class="clc" href="shop.php">Printed Rolls</a></li>
+                                                        <li><a class="clc" href="shop.php">Printed sheets</a></li>
+                                                        <li><a class="clc" href="shop.php">Printed Bags</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -105,7 +106,7 @@
                         <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
                             <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
                                 <div class="wishlist d-flex flex-row align-items-center justify-content-end">
-                                    <div class="wishlist_icon"><img src="images/heart.png" alt=""></div>
+                                    <div class="wishlist_icon"><i class="fa fa-heart" aria-hidden="true"></i></div>
                                     <div class="wishlist_content">
                                         <div class="wishlist_text"><a href="#">Wishlist</a></div>
                                         <div class="wishlist_count">115</div>
@@ -116,7 +117,7 @@
                                 <div class="cart">
                                     <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                                         <div class="cart_icon">
-                                            <img src="images/cart.png" alt="">
+                                            <i class="fas fa-shopping-bag"></i>
                                             <div class="cart_count"><span>10</span></div>
                                         </div>
                                         <div class="cart_content">
@@ -149,16 +150,16 @@
                                     </div>
 
                                     <ul class="cat_menu">
-                                        <li><a href="shop.html">D-Cut Bags <i class="fas fa-chevron-right ml-auto"></i></a></li>
-                                        <li><a href="shop.html">Handle Bags <i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">U-Cut Bags <i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">Gazetted Bags<i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">Plain Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">Model Number Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">Missprint Bags<i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">Printed Rolls<i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">Printed Sheets<i class="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="shop.html">Printed Bags<i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">D-Cut Bags <i class="fas fa-chevron-right ml-auto"></i></a></li>
+                                        <li><a href="shop.php">Handle Bags <i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">U-Cut Bags <i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">Gazetted Bags<i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">Plain Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">Model Number Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">Missprint Bags<i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">Printed Rolls<i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">Printed Sheets<i class="fas fa-chevron-right"></i></a></li>
+                                        <li><a href="shop.php">Printed Bags<i class="fas fa-chevron-right"></i></a></li>
                                         <!--<li class="hassubs">
                                             <a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
                                             <ul>
@@ -183,10 +184,10 @@
 
                                 <div class="main_nav_menu ml-5">
                                     <ul class="standard_dropdown main_nav_dropdown">
-                                        <li><a href="index.html">Home<i class="fas fa-chevron-down"></i></a></li>
+                                        <li><a href="index.php">Home<i class="fas fa-chevron-down"></i></a></li>
                                         <li><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="shop.html">Products<i class="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="product.html">Single Product<i class="fas fa-chevron-down"></i></a></li>
+                                        <li><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
+                                        <li><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
                                         <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
                                         <li><a href="#">Contact<i class="fas fa-chevron-down"></i></a></li>
                                         <!--<li class="hassubs">
@@ -224,8 +225,8 @@
                                         <li class="hassubs">
                                             <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
                                             <ul>
-                                                <li><a href="shop.html">Shop<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="product.html">Product<i class="fas fa-chevron-down"></i></a></li>
+                                                <li><a href="shop.php">Shop<i class="fas fa-chevron-down"></i></a></li>
+                                                <li><a href="product.php">Product<i class="fas fa-chevron-down"></i></a></li>
                                                 <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
                                                 <li><a href="blog_single.html">Blog Post<i class="fas fa-chevron-down"></i></a></li>
                                                 <li><a href="regular.html">Regular Post<i class="fas fa-chevron-down"></i></a></li>
@@ -290,8 +291,8 @@
                                         <a href="#">Home<i class="fa fa-angle-down"></i></a>
                                     </li>
                                     <li class="page_menu_item"><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
-                                    <li class="page_menu_item"><a href="shop.html">Products<i class="fas fa-chevron-down"></i></a></li>
-                                    <li class="page_menu_item"><a href="product.html">Single Product<i class="fas fa-chevron-down"></i></a></li>
+                                    <li class="page_menu_item"><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
+                                    <li class="page_menu_item"><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
                                     <li class="page_menu_item"><a href="blog.html">blog<i class="fa fa-angle-down"></i></a></li>
                                     <li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
                                     <!--<li class="page_menu_item has-children">
@@ -606,7 +607,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">D-Cut Bag</a></div>
+                                                        <div><a href="product.php">D-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -633,7 +634,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Handle Bag</a></div>
+                                                        <div><a href="product.php">Handle Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -660,7 +661,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">U-Cut Bag</a></div>
+                                                        <div><a href="product.php">U-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -687,7 +688,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Missprint Bag</a></div>
+                                                        <div><a href="product.php">Missprint Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -714,7 +715,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 225</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Rolls</a></div>
+                                                        <div><a href="product.php">Printed Rolls</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -741,7 +742,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Bags</a></div>
+                                                        <div><a href="product.php">Printed Bags</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -768,7 +769,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Sheets</a></div>
+                                                        <div><a href="product.php">Printed Sheets</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -795,7 +796,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">D-Cut Bag</a></div>
+                                                        <div><a href="product.php">D-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -822,7 +823,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Handle Bag</a></div>
+                                                        <div><a href="product.php">Handle Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -849,7 +850,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">U-Cut Bag</a></div>
+                                                        <div><a href="product.php">U-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -876,7 +877,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Missprint Bag</a></div>
+                                                        <div><a href="product.php">Missprint Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -903,7 +904,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 225</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Rolls</a></div>
+                                                        <div><a href="product.php">Printed Rolls</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -930,7 +931,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Bags</a></div>
+                                                        <div><a href="product.php">Printed Bags</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -957,7 +958,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Sheets</a></div>
+                                                        <div><a href="product.php">Printed Sheets</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -992,7 +993,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">D-Cut Bag</a></div>
+                                                        <div><a href="product.php">D-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1019,7 +1020,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Handle Bag</a></div>
+                                                        <div><a href="product.php">Handle Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1046,7 +1047,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">U-Cut Bag</a></div>
+                                                        <div><a href="product.php">U-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1073,7 +1074,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Missprint Bag</a></div>
+                                                        <div><a href="product.php">Missprint Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1100,7 +1101,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 225</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Rolls</a></div>
+                                                        <div><a href="product.php">Printed Rolls</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1127,7 +1128,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Bags</a></div>
+                                                        <div><a href="product.php">Printed Bags</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1154,7 +1155,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Sheets</a></div>
+                                                        <div><a href="product.php">Printed Sheets</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1181,7 +1182,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">D-Cut Bag</a></div>
+                                                        <div><a href="product.php">D-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1208,7 +1209,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Handle Bag</a></div>
+                                                        <div><a href="product.php">Handle Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1235,7 +1236,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">U-Cut Bag</a></div>
+                                                        <div><a href="product.php">U-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1262,7 +1263,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Missprint Bag</a></div>
+                                                        <div><a href="product.php">Missprint Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1289,7 +1290,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 225</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Rolls</a></div>
+                                                        <div><a href="product.php">Printed Rolls</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1316,7 +1317,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Bags</a></div>
+                                                        <div><a href="product.php">Printed Bags</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1343,7 +1344,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Sheets</a></div>
+                                                        <div><a href="product.php">Printed Sheets</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1378,7 +1379,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">D-Cut Bag</a></div>
+                                                        <div><a href="product.php">D-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1405,7 +1406,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Handle Bag</a></div>
+                                                        <div><a href="product.php">Handle Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1432,7 +1433,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">U-Cut Bag</a></div>
+                                                        <div><a href="product.php">U-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1459,7 +1460,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Missprint Bag</a></div>
+                                                        <div><a href="product.php">Missprint Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1486,7 +1487,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 225</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Rolls</a></div>
+                                                        <div><a href="product.php">Printed Rolls</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1513,7 +1514,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Bags</a></div>
+                                                        <div><a href="product.php">Printed Bags</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1540,7 +1541,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Sheets</a></div>
+                                                        <div><a href="product.php">Printed Sheets</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1567,7 +1568,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">D-Cut Bag</a></div>
+                                                        <div><a href="product.php">D-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1594,7 +1595,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Handle Bag</a></div>
+                                                        <div><a href="product.php">Handle Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1621,7 +1622,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">U-Cut Bag</a></div>
+                                                        <div><a href="product.php">U-Cut Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1648,7 +1649,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Missprint Bag</a></div>
+                                                        <div><a href="product.php">Missprint Bag</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1675,7 +1676,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 225</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Rolls</a></div>
+                                                        <div><a href="product.php">Printed Rolls</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1702,7 +1703,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Bags</a></div>
+                                                        <div><a href="product.php">Printed Bags</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1729,7 +1730,7 @@
                                                 <div class="product_content">
                                                     <div class="product_price">₹ 379</div>
                                                     <div class="product_name">
-                                                        <div><a href="product.html">Printed Sheets</a></div>
+                                                        <div><a href="product.php">Printed Sheets</a></div>
                                                     </div>
                                                     <div class="product_extras">
                                                         <div class="product_color">
@@ -1850,7 +1851,7 @@
             </div>
         </div>
 
-        
+        <!-- Newsletter -->
 
         <div class="newsletter">
             <div class="container">
@@ -1933,8 +1934,8 @@
                             <div class="footer_title">Quick Links</div>
                             <ul class="footer_list">
                                 <li><a href="#">About Us</a></li>
-                                <li><a href="shop.html">Products</a></li>
-                                <li><a href="product.html">Single Product</a></li>
+                                <li><a href="shop.php">Products</a></li>
+                                <li><a href="product.php">Single Product</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
