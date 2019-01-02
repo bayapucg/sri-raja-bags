@@ -14,16 +14,9 @@
 8. Init Featured Slider
 9. Init Favorites
 10. Init ZIndex
-11. Init Popular Categories Slider
-12. Init Banner 2 Slider
-13. Init Arrivals Slider
-14. Init Arrivals Slider ZIndex
-15. Init Best Sellers Slider
-16. Init Trends Slider
-17. Init Reviews Slider
-18. Init Recently Viewed Slider
-19. Init Brands Slider
-20. Init Timer
+11. Init Banner 2 Slider
+12. Init Recently Viewed Slider
+13. Init Timer
 
 
 ******************************/
@@ -49,17 +42,10 @@ $(document).ready(function()
 	initTabLines();
 	initFeaturedSlider();
 	featuredSliderZIndex();
-	initPopularSlider();
 	initBanner2Slider();
 	initFavs();
-	initArrivalsSlider();
-	arrivalsSliderZIndex();
-	bestsellersSlider();
 	initTabs();
-	initTrendsSlider();
-	initReviewsSlider();
 	initViewedSlider();
-	initBrandsSlider();
 	initTimer();
 
 	$(window).on('resize', function()
@@ -161,7 +147,7 @@ $(document).ready(function()
 		{
 			placeholder.text(this.value);
 
-			$(this).animate({width: placeholder.width() + 'px' });
+			//$(this).animate({width: placeholder.width() + 'px' });
 		});
 	}
 
@@ -517,55 +503,7 @@ $(document).ready(function()
 
 	/* 
 
-	11. Init Popular Categories Slider
-
-	*/
-
-	function initPopularSlider()
-	{
-		if($('.popular_categories_slider').length)
-		{
-			var popularSlider = $('.popular_categories_slider');
-
-			popularSlider.owlCarousel(
-			{
-				loop:true,
-				autoplay:false,
-				nav:false,
-				dots:false,
-				responsive:
-				{
-					0:{items:1},
-					575:{items:2},
-					640:{items:3},
-					768:{items:4},
-					991:{items:5}
-				}
-			});
-
-			if($('.popular_categories_prev').length)
-			{
-				var prev = $('.popular_categories_prev');
-				prev.on('click', function()
-				{
-					popularSlider.trigger('prev.owl.carousel');
-				});
-			}
-
-			if($('.popular_categories_next').length)
-			{
-				var next = $('.popular_categories_next');
-				next.on('click', function()
-				{
-					popularSlider.trigger('next.owl.carousel');
-				});
-			}
-		}
-	}
-
-	/* 
-
-	12. Init Banner 2 Slider
+	11. Init Banner 2 Slider
 
 	*/
 
@@ -588,276 +526,7 @@ $(document).ready(function()
 
 	/* 
 
-	13. Init Arrivals Slider
-
-	*/
-
-	function initArrivalsSlider()
-	{
-		if($('.arrivals_slider').length)
-		{
-			var arrivalsSliders = $('.arrivals_slider');
-			arrivalsSliders.each(function()
-			{
-				var arrivalsSlider = $(this);
-				initASlider(arrivalsSlider);
-			});	
-			
-		}
-	}
-
-	function initASlider(as)
-	{
-		var arrivalsSlider = as;
-		arrivalsSlider.on('init', function()
-		{
-			var activeItems = arrivalsSlider.find('.slick-slide.slick-active');
-			for(var x = 0; x < activeItems.length - 1; x++)
-			{
-				var item = $(activeItems[x]);
-				item.find('.border_active').removeClass('active');
-				if(item.hasClass('slick-active'))
-				{
-					item.find('.border_active').addClass('active');
-				}
-			}
-		}).on(
-		{
-			afterChange: function(event, slick, current_slide_index, next_slide_index)
-			{
-				var activeItems = arrivalsSlider.find('.slick-slide.slick-active');
-				activeItems.find('.border_active').removeClass('active');
-				for(var x = 0; x < activeItems.length - 1; x++)
-				{
-					var item = $(activeItems[x]);
-					item.find('.border_active').removeClass('active');
-					if(item.hasClass('slick-active'))
-					{
-						item.find('.border_active').addClass('active');
-					}
-				}
-			}
-		})
-		.slick(
-		{
-			rows:2,
-			slidesToShow:5,
-			slidesToScroll:5,
-			infinite:false,
-			arrows:false,
-			dots:true,
-			responsive:
-			[
-				{
-					breakpoint:768, settings:
-					{
-						rows:2,
-						slidesToShow:3,
-						slidesToScroll:3,
-						dots:true
-					}
-				},
-				{
-					breakpoint:575, settings:
-					{
-						rows:2,
-						slidesToShow:2,
-						slidesToScroll:2,
-						dots:false
-					}
-				},
-				{
-					breakpoint:480, settings:
-					{
-						rows:1,
-						slidesToShow:1,
-						slidesToScroll:1,
-						dots:false
-					}
-				}
-			]
-		});
-	}
-
-	/* 
-
-	14. Init Arrivals Slider ZIndex
-
-	*/
-
-	function arrivalsSliderZIndex()
-	{
-		// Hide slider dots on item hover
-		var items = document.getElementsByClassName('arrivals_slider_item');
-		
-		for(var x = 0; x < items.length; x++)
-		{
-			var item = items[x];
-			item.addEventListener('mouseenter', function()
-			{
-				$('.arrivals_slider .slick-dots').css('display', "none");
-			});
-
-			item.addEventListener('mouseleave', function()
-			{
-				$('.arrivals_slider .slick-dots').css('display', "block");
-			});
-		}
-	}
-
-	/* 
-
-	15. Init Best Sellers Slider
-
-	*/
-
-	function bestsellersSlider()
-	{
-		if($('.bestsellers_slider').length)
-		{
-			var bestsellersSliders = $('.bestsellers_slider');
-			bestsellersSliders.each(function()
-			{
-				var bestsellersSlider = $(this);
-
-				initBSSlider(bestsellersSlider);
-			})	
-		}
-	}
-
-	function initBSSlider(bss)
-	{
-		var bestsellersSlider = bss;
-
-		bestsellersSlider.slick(
-		{
-			rows:2,
-			infinite:true,
-			slidesToShow:3,
-			slidesToScroll:3,
-			arrows:false,
-			dots:true,
-			autoplay: true,
-  			autoplaySpeed: 6000,
-			responsive:
-			[
-				{
-					breakpoint:1199, settings:
-					{
-						rows:2,
-						slidesToShow:2,
-						slidesToScroll:2,
-						dots:true
-					}
-				},
-				{
-					breakpoint:991, settings:
-					{
-						rows:2,
-						slidesToShow:1,
-						slidesToScroll:1,
-						dots:true
-					}
-				},
-				{
-					breakpoint:575, settings:
-					{
-						rows:1,
-						slidesToShow:1,
-						slidesToScroll:1,
-						dots:false
-					}
-				}
-			]
-		});
-	}
-
-	/* 
-
-	16. Init Trends Slider
-
-	*/
-
-	function initTrendsSlider()
-	{
-		if($('.trends_slider').length)
-		{
-			var trendsSlider = $('.trends_slider');
-			trendsSlider.owlCarousel(
-			{
-				loop:false,
-				margin:30,
-				nav:false,
-				dots:false,
-				autoplayHoverPause:true,
-				autoplay:false,
-				responsive:
-				{
-					0:{items:1},
-					575:{items:2},
-					991:{items:3}
-				}
-			});
-
-			trendsSlider.on('click', '.trends_fav', function (ev)
-			{
-			    $(ev.target).toggleClass('active');
-			});
-
-			if($('.trends_prev').length)
-			{
-				var prev = $('.trends_prev');
-				prev.on('click', function()
-				{
-					trendsSlider.trigger('prev.owl.carousel');
-				});
-			}
-
-			if($('.trends_next').length)
-			{
-				var next = $('.trends_next');
-				next.on('click', function()
-				{
-					trendsSlider.trigger('next.owl.carousel');
-				});
-			}
-		}
-	}
-
-	/* 
-
-	17. Init Reviews Slider
-
-	*/
-
-	function initReviewsSlider()
-	{
-		if($('.reviews_slider').length)
-		{
-			var reviewsSlider = $('.reviews_slider');
-
-			reviewsSlider.owlCarousel(
-			{
-				items:3,
-				loop:true,
-				margin:30,
-				autoplay:false,
-				nav:false,
-				dots:true,
-				dotsContainer: '.reviews_dots',
-				responsive:
-				{
-					0:{items:1},
-					768:{items:2},
-					991:{items:3}
-				}
-			});
-		}
-	}
-
-	/* 
-
-	18. Init Recently Viewed Slider
+	12. Init Recently Viewed Slider
 
 	*/
 
@@ -904,54 +573,10 @@ $(document).ready(function()
 			}
 		}
 	}
-
+    
 	/* 
 
-	19. Init Brands Slider
-
-	*/
-
-	function initBrandsSlider()
-	{
-		if($('.brands_slider').length)
-		{
-			var brandsSlider = $('.brands_slider');
-
-			brandsSlider.owlCarousel(
-			{
-				loop:true,
-				autoplay:true,
-				autoplayTimeout:5000,
-				nav:false,
-				dots:false,
-				autoWidth:true,
-				items:8,
-				margin:42
-			});
-
-			if($('.brands_prev').length)
-			{
-				var prev = $('.brands_prev');
-				prev.on('click', function()
-				{
-					brandsSlider.trigger('prev.owl.carousel');
-				});
-			}
-
-			if($('.brands_next').length)
-			{
-				var next = $('.brands_next');
-				next.on('click', function()
-				{
-					brandsSlider.trigger('next.owl.carousel');
-				});
-			}
-		}
-	}
-
-	/* 
-
-	20. Init Timer
+	13. Init Timer
 
 	*/
 

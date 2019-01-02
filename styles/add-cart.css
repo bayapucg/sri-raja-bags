@@ -64,8 +64,27 @@
 2. Shop
 *********************************/
 
+.section-title {
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #DADADA;
+}
 
+.section-title .title {
+    display: inline-block;
+    text-transform: uppercase;
+}
 
+.section-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1.5px;
+    height: 3px;
+    width: 60px;
+    background-color: #0e8ce4;
+}
 
 .shiping-methods {
   margin-bottom: 30px;
@@ -73,46 +92,62 @@
 
 /*-- shopping cart table --*/
 
-.shopping-cart-table>tbody>tr>td, .shopping-cart-table>tbody>tr>th, .shopping-cart-table>tfoot>tr>td, .shopping-cart-table>tfoot>tr>th {
+tbody>tr>td, 
+tbody>tr>th, 
+tfoot>tr>td, 
+tfoot>tr>th {
   padding: 15px 0px;
   vertical-align: middle;
   border-top: 1px solid #DADADA;
 }
 
-.shopping-cart-table>thead>tr>td, .shopping-cart-table>thead>tr>th {
+thead>tr>td, 
+thead>tr>th {
   padding: 15px 0px;
   vertical-align: middle;
   border-top: 0px solid #DADADA;
 }
 
-.shopping-cart-table>thead>tr>th {
+.table th {
+    border-top: 0px solid #DADADA;
+}
+
+thead>tr>th {
   color: #30323A;
   text-transform: uppercase;
   border-bottom: 1px solid #DADADA;
 }
 
-.shopping-cart-table>tbody>tr:last-child>td {
+tbody>tr:last-child>td {
   border-bottom: 1px solid #DADADA;
 }
 
-.shopping-cart-table>tfoot>tr>td, .shopping-cart-table>tfoot>tr>th {
+tbody>tr>td:last-child {
+  font-size: initial;
+}
+
+tfoot>tr>td, tfoot>tr>th {
   color: #30323A;
   border-top: 0px;
 }
 
-.shopping-cart-table>tfoot>tr>td:not(.empty), .shopping-cart-table>tfoot>tr>th:not(.empty) {
+tfoot>tr>td:not(.empty), tfoot>tr>th:not(.empty) {
   padding: 15px;
   background-color: #F6F7F8;
   border: 1px solid #DADADA;
 }
 
-.shopping-cart-table>tbody>tr>.details>a {
-  font-size: 18px;
-  font-weight: 500;
+tbody>tr>.details>a {
+    font-size: 18px;
+    font-weight: 500;
     color: #000;
 }
 
-.shopping-cart-table>tbody>tr>.thumb>img {
+.thumb{
+    text-align: center;
+}
+
+.thumb>img {
   width: 60px;
 }
 
@@ -134,7 +169,7 @@
 
 .shopping-cart-table>tfoot>tr>.total {
   font-size: 24px;
-  color: #F8694A;
+  color: #4caf50;
 }
 
 .icon-btn.main-btn, .icon-btn.primary-btn {
@@ -144,6 +179,7 @@
     text-align: center;
     padding: 0px;
     border: none;
+    cursor: pointer;
 }
 
 .main-btn {
@@ -158,6 +194,15 @@
     border: none;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
+}
+
+.qty{
+    width: 13%;
+}
+
+.qty span{
+    font-size: 20px;
+    color: #000;
 }
 
 .qty .input {
@@ -188,11 +233,70 @@
     border: none;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
-    cursor: pointer;
     letter-spacing: 1px;
 }
 
 .primary-btn:hover, .primary-btn:focus {
     color: #FFF;
     background-color: #30323A;
+}
+
+
+/* Billing Address */
+
+.input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 15px;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+    box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    border-radius: 0px;
+}
+
+.input:focus {
+    -webkit-box-shadow: 0px 0px 0px 1px #16225a inset, 0px 0px 0px 0px #16225a;
+    box-shadow: 0px 0px 0px 1px #16225a inset, 0px 0px 0px 0px #16225a;
+    outline: 0px;
+}
+
+select.input{
+    height: 40px !important;
+}
+
+textarea.input {
+  padding: 15px;
+}
+
+.input-checkbox .caption {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.3s max-height;
+  transition: 0.3s max-height;
+}
+
+.input-checkbox>label {
+  color: #30323A;
+}
+
+.input-checkbox input[type="checkbox"]:checked+label+.caption, 
+.input-checkbox input[type="radio"]:checked+label+.caption {
+  max-height: 800px;
+}
+
+.caret{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.caret:before{
+    content: "\f0d7";
+    font: normal normal normal 14px/1 FontAwesome;
 }

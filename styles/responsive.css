@@ -79,14 +79,6 @@
 	{
 		left: calc((100% - 960px) / 2 + 15px);
 	}
-	.new_arrivals .arrivals_single > div
-	{
-		padding-left: 24px;
-	}
-	.new_arrivals .arrivals_single_marks
-	{
-		left: 24px;
-	}
 }
 
 /************
@@ -130,37 +122,17 @@
 	{
 		width: 100%;
 	}
-	.popular_categories_slider_container
-	{
-		margin-top: 15px;
-	}
 	.banner_2_dots
 	{
 		left: calc((100% - 720px) / 2 + 15px);
 	}
-	.tabs
+	.featured .tabs
 	{
 		padding-top: 80px;
 	}
-	.tabs.tabs-right ul
+	.featured .tabs.tabs-right ul
 	{
 		float: left;
-	}
-	.new_arrivals .arrivals_single
-	{
-		display: none;
-	}
-	.advert_col
-	{
-		margin-bottom: 30px;
-	}
-	.advert_col:last-child
-	{
-		margin-bottom: 0px;
-	}
-	.trends_slider_container
-	{
-		margin-top: 15px;
 	}
 }
 
@@ -329,18 +301,10 @@
 	{
 		font-size: 16px;
 	}
-	.product_panel
+	.featured .product_panel
 	{
 		margin-left: 0px;
 		margin-right: 0px;
-	}
-	.popular_categories_slider_nav
-	{
-		display: none;
-	}
-	.popular_categories_link
-	{
-		margin-top: 23px;
 	}
 	.banner_2_item
 	{
@@ -366,52 +330,16 @@
 	{
 		margin-top: 30px;
 	}
-	.tabs ul li
+	.featured .tabs ul li
 	{
 		font-size: 14px;
 		margin-right: 30px;
 	}
-	.bestsellers_slider
-	{
-		padding-bottom: 0px;
-	}
-	.logos
-	{
-		margin-top: 30px;
-	}
-	.popular_categories_title
-	{
-		font-size: 24px;
-	}
-	.tabs.tabs-right .tabs_line
+	.featured .tabs.tabs-right .tabs_line
 	{
 		margin-top: 52px;
 	}
-	.tabs_line span
-	{
-		display: none;
-	}
-	.advert_content
-	{
-		padding-left: 15px;
-	}
-	.advert_text
-	{
-		font-size: 13px;
-	}
-	.advert_image
-	{
-		width: 125px;
-	}
-	.reviews
-	{
-		padding-bottom: 80px;
-	}
-	.reviews_all a span
-	{
-		display: none;
-	}
-	.reviews_dots
+	.featured .tabs_line span
 	{
 		display: none;
 	}
