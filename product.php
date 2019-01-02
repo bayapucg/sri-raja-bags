@@ -9,15 +9,15 @@
 				<!-- Images -->
 				<div class="col-lg-2 order-lg-1 order-2">
 					<ul class="image_list">
-						<li data-image="images/featured_2.jpg"><img src="images/featured_2.jpg" alt=""></li>
-						<li data-image="images/featured_3.jpg"><img src="images/featured_3.jpg" alt=""></li>
-						<li data-image="images/featured_4.jpg"><img src="images/featured_4.jpg" alt=""></li>
+						<li data-image="img/featured_2.jpg"><img src="img/featured_2.jpg" alt=""></li>
+						<li data-image="img/featured_3.jpg"><img src="img/featured_3.jpg" alt=""></li>
+						<li data-image="img/featured_4.jpg"><img src="img/featured_4.jpg" alt=""></li>
 					</ul>
 				</div>
 
 				<!-- Selected Image -->
 				<div class="col-lg-5 order-lg-2 order-1">
-					<div class="image_selected"><img src="images/featured_2.jpg" alt=""></div>
+					<div class="image_selected"><img src="img/featured_2.jpg" alt=""></div>
 				</div>
 
 				<!-- Description -->
@@ -96,7 +96,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_8.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_8.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  225<span>₹  300</span></div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -111,7 +111,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_9.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_9.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  379</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -126,7 +126,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_7.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_7.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  225</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -141,7 +141,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_6.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_6.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  379</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -156,7 +156,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_5.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_5.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  225<span>₹  300</span></div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -171,7 +171,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_4.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_4.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  375</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>

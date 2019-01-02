@@ -6,7 +6,7 @@
                 <div class="col">
                     <div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
                         <div class="newsletter_title_container">
-                            <div class="newsletter_icon"><img src="images/send.png" alt=""></div>
+                            <div class="newsletter_icon"><img src="img/send.png" alt=""></div>
                             <div class="newsletter_title">Sign up for Newsletter</div>
                             <div class="newsletter_text">
                                 <p>...and receive 20% coupon for first shopping.</p>
@@ -34,7 +34,7 @@
                     <div class="footer_column footer_contact">
                         <div class="logo_container">
                             <div style="background:#fff;
-                            padding:10px;"><a href="index.php"><img src="images/logo.png" style="width:100px;height:auto;"></a></div>
+                            padding:10px;"><a href="index.php"><img src="img/logo.png" style="width:100px;height:auto;"></a></div>
                         </div>
                         <div class="footer_contact_text">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
@@ -83,8 +83,8 @@
                             <li><a href="#">About Us</a></li>
                             <li><a href="shop.php">Products</a></li>
                             <li><a href="product.php">Single Product</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>

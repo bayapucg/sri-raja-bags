@@ -3,7 +3,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/shop_background.jpg"></div>
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="img/shop_background.jpg"></div>
 		<div class="home_overlay"></div>
 		<div class="home_content d-flex flex-column align-items-center justify-content-center">
 			<h1 class="home_title">Cart</h1>
@@ -38,7 +38,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="thumb"><img src="images/featured_1.jpg" alt=""></td>
+										<td class="thumb"><img src="img/featured_1.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Product Name Goes Here</a>
 											<ul>
@@ -52,7 +52,7 @@
 										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-trash"></i></button></td>
 									</tr>
 									<tr>
-										<td class="thumb"><img src="images/featured_10.jpg" alt=""></td>
+										<td class="thumb"><img src="img/featured_10.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Product Name Goes Here</a>
 											<ul>
@@ -66,7 +66,7 @@
 										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-trash"></i></button></td>
 									</tr>
 									<tr>
-										<td class="thumb"><img src="images/featured_11.jpg" alt=""></td>
+										<td class="thumb"><img src="img/featured_11.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Product Name Goes Here</a>
 											<ul>
@@ -82,7 +82,7 @@
 								</tbody>
 							</table>
                             </div>
-                            <div class="pull-right mb-5">
+                            <div class="float-right mb-5">
 								<a href="checkout.php" class="primary-btn">Buy Now</a>
 							</div>
 						</div>

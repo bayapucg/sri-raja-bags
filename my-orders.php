@@ -3,7 +3,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/shop_background.jpg"></div>
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="img/shop_background.jpg"></div>
 		<div class="home_overlay"></div>
 		<div class="home_content d-flex flex-column align-items-center justify-content-center">
 			<h1 class="home_title">My Orders</h1>
@@ -35,7 +35,7 @@
                         <tbody>
                             <tr>
                                 <td>142365</td>
-                                <td class="thumb"><img src="images/featured_1.jpg" alt=""></td>
+                                <td class="thumb"><img src="img/featured_1.jpg" alt=""></td>
                                 <td>D-cut Model1 Type Bag</td>
                                 <td>₹ 32.50</td>
                                 <td>2011/04/25</td>
@@ -43,7 +43,7 @@
                             </tr>
                             <tr>
                                 <td>142365</td>
-                                <td class="thumb"><img src="images/featured_10.jpg" alt=""></td>
+                                <td class="thumb"><img src="img/featured_10.jpg" alt=""></td>
                                 <td>D-cut Model1 Type Bag</td>
                                 <td>₹ 32.50</td>
                                 <td>2011/04/25</td>
@@ -51,7 +51,7 @@
                             </tr>
                             <tr>
                                 <td>142365</td>
-                                <td class="thumb"><img src="images/featured_14.jpg" alt=""></td>
+                                <td class="thumb"><img src="img/featured_14.jpg" alt=""></td>
                                 <td>D-cut Model1 Type Bag</td>
                                 <td>₹ 32.50</td>
                                 <td>2011/04/25</td>

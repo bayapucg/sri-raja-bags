@@ -3,7 +3,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/shop_background.jpg"></div>
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="img/shop_background.jpg"></div>
 		<div class="home_overlay"></div>
 		<div class="home_content d-flex flex-column align-items-center justify-content-center">
 			<h1 class="home_title">Products</h1>
@@ -191,7 +191,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_1.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 1</a></div></div>
@@ -206,7 +206,7 @@
 							<!-- Product Item -->
 							<div class="product_item discount">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_10.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_10.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225<span>₹ 300</span></div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 10</a></div></div>
@@ -221,7 +221,7 @@
 							<!-- Product Item -->
 							<div class="product_item">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_11.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_11.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 11</a></div></div>
@@ -236,7 +236,7 @@
 							<!-- Product Item -->
 							<div class="product_item">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_12.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_12.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 12</a></div></div>
@@ -251,7 +251,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_13.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_13.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 13</a></div></div>
@@ -266,7 +266,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_14.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_14.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 14</a></div></div>
@@ -281,7 +281,7 @@
 							<!-- Product Item -->
 							<div class="product_item">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_2.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379<span>₹ 300</span></div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 2</a></div></div>
@@ -296,7 +296,7 @@
 							<!-- Product Item -->
 							<div class="product_item">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_3.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225<span>₹ 300</span></div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 3</a></div></div>
@@ -311,7 +311,7 @@
 							<!-- Product Item -->
 							<div class="product_item">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_4.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 4</a></div></div>
@@ -326,7 +326,7 @@
 							<!-- Product Item -->
 							<div class="product_item">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_5.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 5</a></div></div>
@@ -341,7 +341,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_6.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 6</a></div></div>
@@ -356,7 +356,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_4.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 6</a></div></div>
@@ -371,7 +371,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_7.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 7</a></div></div>
@@ -386,7 +386,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_8.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 8</a></div></div>
@@ -401,7 +401,7 @@
 							<!-- Product Item -->
 							<div class="product_item discount">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_9.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_9.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225<span>₹ 300</span></div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 9</a></div></div>
@@ -416,7 +416,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_1.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 1</a></div></div>
@@ -431,7 +431,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_10.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_10.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 10</a></div></div>
@@ -446,7 +446,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_13.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_13.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 13</a></div></div>
@@ -461,7 +461,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_14.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_14.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 225</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 14</a></div></div>
@@ -476,7 +476,7 @@
 							<!-- Product Item -->
 							<div class="product_item is_new">
 								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.jpg" alt=""></div>
+								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_2.jpg" alt=""></div>
 								<div class="product_content">
 									<div class="product_price">₹ 379</div>
 									<div class="product_name"><div><a href="product.html" tabindex="0">Product 2</a></div></div>
@@ -534,7 +534,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_8.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_8.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  225<span>₹  300</span></div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -549,7 +549,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_9.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_9.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  379</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -564,7 +564,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_7.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_7.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  225</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -579,7 +579,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_6.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_6.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  379</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -594,7 +594,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_5.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_5.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  225<span>₹  300</span></div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>
@@ -609,7 +609,7 @@
                             <!-- Recently Viewed Item -->
                             <div class="owl-item">
                                 <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="viewed_image"><img src="images/featured_4.jpg" alt=""></div>
+                                    <div class="viewed_image"><img src="img/featured_4.jpg" alt=""></div>
                                     <div class="viewed_content text-center">
                                         <div class="viewed_price">₹  375</div>
                                         <div class="viewed_name"><a href="#">Product Name</a></div>

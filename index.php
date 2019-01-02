@@ -3,10 +3,10 @@
     <!-- Banner -->
 
     <div class="banner">
-        <div class="banner_background" style="background-image:url(images/banner12.jpg)"></div>
+        <div class="banner_background" style="background-image:url(img/banner12.jpg)"></div>
         <div class="container fill_height">
             <div class="row fill_height">
-                <!--<div class="banner_product_image"><img src="images/banner_product.png" alt=""></div>-->
+                <!--<div class="banner_product_image"><img src="img/banner_product.png" alt=""></div>-->
                 <div class="col-lg-5 offset-lg-4 fill_height">
                     <div class="banner_content">
                         <h1 class="banner_text">new product collections</h1>
@@ -29,7 +29,7 @@
                 <div class="col-lg-3 col-md-6 char_col">
 
                     <div class="char_item d-flex flex-row align-items-center justify-content-start">
-                        <div class="char_icon"><img src="images/char_1.png" alt=""></div>
+                        <div class="char_icon"><img src="img/char_1.png" alt=""></div>
                         <div class="char_content">
                             <div class="char_title">Step-1</div>
                             <div class="char_subtitle">from ₹ 500.00</div>
@@ -41,7 +41,7 @@
                 <div class="col-lg-3 col-md-6 char_col">
 
                     <div class="char_item d-flex flex-row align-items-center justify-content-start">
-                        <div class="char_icon"><img src="images/char_2.png" alt=""></div>
+                        <div class="char_icon"><img src="img/char_2.png" alt=""></div>
                         <div class="char_content">
                             <div class="char_title">Step-2</div>
                             <div class="char_subtitle">from ₹ 500.00</div>
@@ -53,7 +53,7 @@
                 <div class="col-lg-3 col-md-6 char_col">
 
                     <div class="char_item d-flex flex-row align-items-center justify-content-start">
-                        <div class="char_icon"><img src="images/char_3.png" alt=""></div>
+                        <div class="char_icon"><img src="img/char_3.png" alt=""></div>
                         <div class="char_content">
                             <div class="char_title">Step-3</div>
                             <div class="char_subtitle">from ₹ 500.00</div>
@@ -65,7 +65,7 @@
                 <div class="col-lg-3 col-md-6 char_col">
 
                     <div class="char_item d-flex flex-row align-items-center justify-content-start">
-                        <div class="char_icon"><img src="images/char_4.png" alt=""></div>
+                        <div class="char_icon"><img src="img/char_4.png" alt=""></div>
                         <div class="char_content">
                             <div class="char_title">Step-4</div>
                             <div class="char_subtitle">from ₹ 500.00</div>
@@ -94,7 +94,7 @@
 
                                 <!-- Deals Item -->
                                 <div class="owl-item deals_item">
-                                    <div class="deals_image"><img src="images/deals_1.jpg" alt=""></div>
+                                    <div class="deals_image"><img src="img/deals_1.jpg" alt=""></div>
                                     <div class="deals_content">
                                         <!--<div class="deals_info_line d-flex flex-row justify-content-start">
                                             <div class="deals_item_category"><a href="#">Headphones</a></div>
@@ -138,7 +138,7 @@
 
                                 <!-- Deals Item -->
                                 <div class="owl-item deals_item">
-                                    <div class="deals_image"><img src="images/deals_2.jpg" alt=""></div>
+                                    <div class="deals_image"><img src="img/deals_2.jpg" alt=""></div>
                                     <div class="deals_content">
                                         <!--<div class="deals_info_line d-flex flex-row justify-content-start">
                                             <div class="deals_item_category"><a href="#">Headphones</a></div>
@@ -182,7 +182,7 @@
 
                                 <!-- Deals Item -->
                                 <div class="owl-item deals_item">
-                                    <div class="deals_image"><img src="images/deals_3.jpg" alt=""></div>
+                                    <div class="deals_image"><img src="img/deals_3.jpg" alt=""></div>
                                     <div class="deals_content">
                                         <!--<div class="deals_info_line d-flex flex-row justify-content-start">
                                             <div class="deals_item_category"><a href="#">Headphones</a></div>
@@ -254,7 +254,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_1.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -281,7 +281,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_3.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -308,7 +308,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_5.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -335,7 +335,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_7.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -362,7 +362,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_9.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_9.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 225</div>
                                                 <div class="product_name">
@@ -389,7 +389,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_12.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_12.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -416,7 +416,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_13.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_13.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -443,7 +443,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_2.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -470,7 +470,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_4.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -497,7 +497,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_6.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -524,7 +524,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_8.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -551,7 +551,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_10.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_10.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 225</div>
                                                 <div class="product_name">
@@ -578,7 +578,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_11.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_11.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -605,393 +605,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_14.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Printed Sheets</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount">-25%</li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="featured_slider_dots_cover"></div>
-                            </div>
-
-                            <!-- Product Panel -->
-                            <div class="product_panel panel">
-                                <div class="featured_slider slider">
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">D-Cut Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount">-25%</li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Handle Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button active">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">U-Cut Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Missprint Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount">-25%</li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_9.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 225</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Printed Rolls</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_12.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Printed Bags</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_13.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Printed Sheets</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount">-25%</li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">D-Cut Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount">-25%</li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Handle Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button active">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">U-Cut Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Missprint Bag</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount">-25%</li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_10.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 225</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Printed Rolls</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_11.jpg" alt=""></div>
-                                            <div class="product_content">
-                                                <div class="product_price">₹ 379</div>
-                                                <div class="product_name">
-                                                    <div><a href="product.php">Printed Bags</a></div>
-                                                </div>
-                                                <div class="product_extras">
-                                                    <div class="product_color">
-                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
-                                                        <input type="radio" name="product_color" style="background:#000000">
-                                                        <input type="radio" name="product_color" style="background:#999999">
-                                                    </div>
-                                                    <button class="product_cart_button">Add to Cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                            <ul class="product_marks">
-                                                <li class="product_mark product_discount"></li>
-                                                <li class="product_mark product_new">new</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <!-- Slider Item -->
-                                    <div class="featured_slider_item">
-                                        <div class="border_active"></div>
-                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_14.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_14.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1026,7 +640,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_1.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -1053,7 +667,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_3.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1080,7 +694,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_5.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1107,7 +721,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_7.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -1134,7 +748,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_9.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_9.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 225</div>
                                                 <div class="product_name">
@@ -1161,7 +775,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_12.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_12.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1188,7 +802,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_13.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_13.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1215,7 +829,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_2.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -1242,7 +856,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_4.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1269,7 +883,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_6.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1296,7 +910,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_8.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price discount">₹ 225<span>₹ 300</span></div>
                                                 <div class="product_name">
@@ -1323,7 +937,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_10.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_10.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 225</div>
                                                 <div class="product_name">
@@ -1350,7 +964,7 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_11.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_11.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1377,7 +991,393 @@
                                     <div class="featured_slider_item">
                                         <div class="border_active"></div>
                                         <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_14.jpg" alt=""></div>
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_14.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Printed Sheets</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount">-25%</li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="featured_slider_dots_cover"></div>
+                            </div>
+
+                            <!-- Product Panel -->
+                            <div class="product_panel panel">
+                                <div class="featured_slider slider">
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_1.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">D-Cut Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount">-25%</li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_3.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Handle Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button active">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_5.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">U-Cut Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_7.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Missprint Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount">-25%</li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_9.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 225</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Printed Rolls</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_12.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Printed Bags</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_13.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Printed Sheets</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount">-25%</li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_2.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">D-Cut Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount">-25%</li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_4.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Handle Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button active">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_6.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">U-Cut Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_8.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price discount">₹ 225<span>₹ 300</span></div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Missprint Bag</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount">-25%</li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_10.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 225</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Printed Rolls</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_11.jpg" alt=""></div>
+                                            <div class="product_content">
+                                                <div class="product_price">₹ 379</div>
+                                                <div class="product_name">
+                                                    <div><a href="product.php">Printed Bags</a></div>
+                                                </div>
+                                                <div class="product_extras">
+                                                    <div class="product_color">
+                                                        <input type="radio" checked name="product_color" style="background:#b19c83">
+                                                        <input type="radio" name="product_color" style="background:#000000">
+                                                        <input type="radio" name="product_color" style="background:#999999">
+                                                    </div>
+                                                    <button class="product_cart_button">Add to Cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                            <ul class="product_marks">
+                                                <li class="product_mark product_discount"></li>
+                                                <li class="product_mark product_new">new</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slider Item -->
+                                    <div class="featured_slider_item">
+                                        <div class="border_active"></div>
+                                        <div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
+                                            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="img/featured_14.jpg" alt=""></div>
                                             <div class="product_content">
                                                 <div class="product_price">₹ 379</div>
                                                 <div class="product_name">
@@ -1415,7 +1415,7 @@
     <!-- Banner -->
 
     <div class="banner_2">
-        <div class="banner_2_background" style="background-image:url(images/banner_2_background.jpg)"></div>
+        <div class="banner_2_background" style="background-image:url(img/banner_2_background.jpg)"></div>
         <div class="banner_2_container">
             <div class="banner_2_dots"></div>
             <!-- Banner 2 Slider -->
@@ -1439,7 +1439,7 @@
                                 </div>
                                 <div class="col-lg-8 col-md-6 fill_height">
                                     <div class="banner_2_image_container">
-                                        <div class="banner_2_image"><img src="images/banner_2_1.png" alt=""></div>
+                                        <div class="banner_2_image"><img src="img/banner_2_1.png" alt=""></div>
                                     </div>
                                 </div>
                             </div>
@@ -1464,7 +1464,7 @@
                                 </div>
                                 <div class="col-lg-8 col-md-6 fill_height">
                                     <div class="banner_2_image_container">
-                                        <div class="banner_2_image"><img src="images/banner_2_2.png" alt=""></div>
+                                        <div class="banner_2_image"><img src="img/banner_2_2.png" alt=""></div>
                                     </div>
                                 </div>
                             </div>
@@ -1489,7 +1489,7 @@
                                 </div>
                                 <div class="col-lg-8 col-md-6 fill_height">
                                     <div class="banner_2_image_container">
-                                        <div class="banner_2_image"><img src="images/banner_2_3.png" alt=""></div>
+                                        <div class="banner_2_image"><img src="img/banner_2_3.png" alt=""></div>
                                     </div>
                                 </div>
                             </div>

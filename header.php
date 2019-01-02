@@ -7,24 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="OneTech shop project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap4/bootstrap.min.css">
     <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css">
-    <link rel="stylesheet" type="text/css" href="styles/datatables.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/head_foot.css">
-    <link rel="stylesheet" type="text/css" href="styles/head_foot_responsive.css">
-    <link rel="stylesheet" type="text/css" href="styles/add-cart.css">
-    <link rel="stylesheet" type="text/css" href="styles/product_styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
-    <link rel="stylesheet" type="text/css" href="styles/shop_styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/shop_responsive.css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="css/head_foot.css">
+    <link rel="stylesheet" type="text/css" href="css/head_foot_responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/add-cart.css">
+    <link rel="stylesheet" type="text/css" href="css/product_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/product_responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/shop_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/shop_responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 
 <body>
@@ -42,17 +41,18 @@
                 <div class="row">
                     <div class="col d-flex flex-row">
                         <div class="top_bar_contact_item">
-                            <div class="top_bar_icon"><i style="font-size:20px;" class="fa fa-mobile" aria-hidden="true"></i></div>+91 xxx 005 xx70
+                            <div class="top_bar_icon"><i class="fas fa-mobile-alt"></i></div>+91 xxx 005 xx70
                         </div>
                         <div class="top_bar_contact_item">
-                            <div class="top_bar_icon"><i style="font-size:15px;" class="fa fa-envelope-o" aria-hidden="true"></i></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
+                            <div class="top_bar_icon"><i class="far fa-envelope"></i></div>
+                            <a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
                         </div>
                         <div class="top_bar_content ml-auto">
 
                             <div class="top_bar_user">
-                                <div class="user_icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+                                <div class="user_icon"><i class="far fa-user"></i></div>
                                 <div><a class="text-white" href="#">Register</a></div>
-                                <div class="user_icon"><i style="font-size:16px;" class="fa fa-sign-in" aria-hidden="true"></i></div>
+                                <div class="user_icon"><i class="fas fa-sign-in-alt"></i></div>
                                 <div><a class="text-white" href="#">Sign in</a></div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                     <!-- Logo -->
                     <div class="col-lg-2 col-sm-3 col-3 order-1">
                         <div class="logo_container">
-                            <div class="logo"><a href="index.php"><img style="width:100px;height:auto;" src="images/logo.png" class="img-responsive"></a></div>
+                            <div class="logo"><a href="index.php"><img style="width:100px;height:auto;" src="img/logo.png" class="img-responsive"></a></div>
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <button type="submit" class="header_search_button trans_300" value="Submit"><img src="images/search.png" alt=""></button>
+                                        <button type="submit" class="header_search_button trans_300" value="Submit"><img src="img/search.png" alt=""></button>
                                     </form>
                                 </div>
                             </div>
@@ -194,7 +194,7 @@
                                     <li><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
-                                    <li><a href="#">Contact<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="contact.php">Contact<i class="fas fa-chevron-down"></i></a></li>
                                     <!--<li class="hassubs">
                                         <a href="#">Super Deals<i class="fas fa-chevron-down"></i></a>
                                         <ul>
@@ -293,13 +293,13 @@
                                     </ul>
                                 </li>-->
                                 <li class="page_menu_item">
-                                    <a href="#">Home<i class="fa fa-angle-down"></i></a>
+                                    <a href="index.php">Home<i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <li class="page_menu_item"><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
                                 <li class="page_menu_item"><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
                                 <li class="page_menu_item"><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="page_menu_item"><a href="blog.html">blog<i class="fa fa-angle-down"></i></a></li>
-                                <li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="#">blog<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="contact.php">contact<i class="fa fa-angle-down"></i></a></li>
                                 <!--<li class="page_menu_item has-children">
                                     <a href="#">Super Deals<i class="fa fa-angle-down"></i></a>
                                     <ul class="page_menu_selection">
@@ -340,10 +340,10 @@
 
                             <div class="menu_contact">
                                 <div class="menu_contact_item">
-                                    <div class="menu_contact_icon"><img src="images/phone_white.png" alt=""></div>+91 xxx 005 xx70
+                                    <div class="menu_contact_icon"><img src="img/phone_white.png" alt=""></div>+91 xxx 005 xx70
                                 </div>
                                 <div class="menu_contact_item">
-                                    <div class="menu_contact_icon"><img src="images/mail_white.png" alt=""></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
+                                    <div class="menu_contact_icon"><img src="img/mail_white.png" alt=""></div><a href="mailto:fastsales@gmail.com">srbsales@gmail.com</a>
                                 </div>
                             </div>
                         </div>
