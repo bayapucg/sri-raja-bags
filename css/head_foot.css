@@ -1494,3 +1494,6 @@ select option
 {
 	margin-right: 0px;
 }
+.help-block {
+    color: #ff0000;
+}

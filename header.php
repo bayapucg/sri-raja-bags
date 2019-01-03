@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="css/head_foot.css">
     <link rel="stylesheet" type="text/css" href="css/head_foot_responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/add-cart.css">
+    <link rel="stylesheet" type="text/css" href="css/add_cart.css">
     <link rel="stylesheet" type="text/css" href="css/product_styles.css">
     <link rel="stylesheet" type="text/css" href="css/product_responsive.css">
     <link rel="stylesheet" type="text/css" href="css/shop_styles.css">
@@ -51,9 +51,9 @@
 
                             <div class="top_bar_user">
                                 <div class="user_icon"><i class="far fa-user"></i></div>
-                                <div><a class="text-white" href="#">Register</a></div>
+                                <div><a class="text-white" href="register.php">Register</a></div>
                                 <div class="user_icon"><i class="fas fa-sign-in-alt"></i></div>
-                                <div><a class="text-white" href="#">Sign in</a></div>
+                                <div><a class="text-white" href="login.php">Sign in</a></div>
                             </div>
                         </div>
                     </div>

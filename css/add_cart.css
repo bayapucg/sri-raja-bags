@@ -233,7 +233,7 @@ tbody>tr>.details>a {
     border: none;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
-    letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .primary-btn:hover, .primary-btn:focus {
