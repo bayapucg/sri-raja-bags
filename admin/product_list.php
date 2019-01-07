@@ -28,6 +28,7 @@
                                 <thead>
                                     <tr>
                                         <th>ID</th>
+                                        <th>Category</th>
                                         <th>Product Name</th>
                                         <th>Product Image</th>
                                         <th>Description</th>
@@ -59,13 +60,16 @@
                                         <th>Printing Style</th>
                                         <th>Suggested Printing color</th>
                                         <th>Model Numbers</th>
+                                        <th>Priority</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
+                                        <td>Category Name</td>
                                         <td>D-Cut Bags</td>
+                                        <td><img src="img/user2-160x160.jpg" width="100px" height="auto"></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>

@@ -26,13 +26,24 @@
                     <form id="addProductForm" name="addProductForm" action="" method="">
                         <div class="box-body">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Category</label>
+                                        <select class="form-control" name="category" id="category">
+                                            <option value="0">Select</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
                                     <div class="form-group">
                                         <label>Product Name</label>
                                         <input type="text" class="form-control" name="name" id="name">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
                                         <label>Upload Product Images</label>
                                         <input type="file" class="form-control" name="images" id="images" multiple>
@@ -135,6 +146,10 @@
                                             <option value="1">Lays</option>
                                             <option value="2">Bits</option>
                                         </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Priority</label>
+                                        <input type="text" class="form-control" name="priority" id="priority">
                                     </div>
                                 </div>
 
@@ -295,7 +310,46 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="row">
+                                <div class="col-md-2">&nbsp;</div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="featured" id="featured"> Featured
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="onsale" id="onsale"> On Sale
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="mostviewed" id="mostviewed"> Most Viewed
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="dealsoftheweek" id="dealsoftheweek"> 
+                                                Deal of the week
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="clearfix">&nbsp;</div>
 
                             <div class="col-md-12 text-center">

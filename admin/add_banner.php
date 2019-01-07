@@ -28,12 +28,6 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Upload Banner Image</label>
-                                    <input type="text" class="form-control" name="image" id="image">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Upload Banner Image</label>
                                     <input type="file" class="form-control" name="image" id="image">
                                 </div>
                             </div>

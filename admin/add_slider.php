@@ -31,7 +31,7 @@
                                     <table id="myTable" class=" table order-list">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
+                                                <th>Heading</th>
                                                 <th>Content</th>
                                                 <th>Image</th>
                                                 <th>&nbsp;</th>
@@ -40,7 +40,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <input type="text" name="name" placeholder="Name" class="form-control" />
+                                                    <input type="text" name="hname" placeholder="Heaading Name" class="form-control" />
                                                 </td>
                                                 <td>
                                                     <input type="text" name="content" placeholder="Content" class="form-control" />
@@ -83,7 +83,7 @@
             var newRow = $("<tr>");
             var cols = "";
 
-            cols += '<td><input type="text" class="form-control" placeholder="Name" name="name' + counter + '"/></td>';
+            cols += '<td><input type="text" class="form-control" placeholder="Heading Name" name="hname' + counter + '"/></td>';
             cols += '<td><input type="text" class="form-control" placeholder="Content" name="content' + counter + '"/></td>';
             cols += '<td><input type="file" class="form-control" placeholder="Image" name="image' + counter + '"/></td>';
 
