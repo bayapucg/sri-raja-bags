@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="css/head_foot.css">
     <link rel="stylesheet" type="text/css" href="css/head_foot_responsive.css">
-    
     <link rel="stylesheet" type="text/css" href="css/add_cart.css">
     <link rel="stylesheet" type="text/css" href="css/product_styles.css">
     <link rel="stylesheet" type="text/css" href="css/product_responsive.css">
@@ -26,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="css/shop_responsive.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    
+    <link rel="stylesheet" type="text/css" href="css/extras.css">
 </head>
 
 <body>
