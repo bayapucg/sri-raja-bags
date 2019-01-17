@@ -121,3 +121,7 @@
     font-weight: 500;
     color: #000;
 }
+
+textarea.input{
+    height: 100px;
+}

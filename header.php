@@ -13,8 +13,8 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="css/head_foot.css">
     <link rel="stylesheet" type="text/css" href="css/head_foot_responsive.css">
@@ -23,6 +23,8 @@
     <link rel="stylesheet" type="text/css" href="css/product_responsive.css">
     <link rel="stylesheet" type="text/css" href="css/shop_styles.css">
     <link rel="stylesheet" type="text/css" href="css/shop_responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/blog_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/blog_responsive.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/extras.css">
@@ -195,7 +197,7 @@
                                     <li><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
-                                    <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="blog.php">Blog<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="contact.php">Contact<i class="fas fa-chevron-down"></i></a></li>
                                     <!--<li class="hassubs">
                                         <a href="#">Super Deals<i class="fas fa-chevron-down"></i></a>
@@ -300,7 +302,7 @@
                                 <li class="page_menu_item"><a href="#">About Us<i class="fas fa-chevron-down"></i></a></li>
                                 <li class="page_menu_item"><a href="shop.php">Products<i class="fas fa-chevron-down"></i></a></li>
                                 <li class="page_menu_item"><a href="product.php">Single Product<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="page_menu_item"><a href="#">blog<i class="fa fa-angle-down"></i></a></li>
+                                <li class="page_menu_item"><a href="blog.php">blog<i class="fa fa-angle-down"></i></a></li>
                                 <li class="page_menu_item"><a href="contact.php">contact<i class="fa fa-angle-down"></i></a></li>
                                 <!--<li class="page_menu_item has-children">
                                     <a href="#">Super Deals<i class="fa fa-angle-down"></i></a>
