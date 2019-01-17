@@ -115,7 +115,7 @@
                             <div class="wishlist d-flex flex-row align-items-center justify-content-end">
                                 <div class="wishlist_icon"><i class="fa fa-heart" aria-hidden="true"></i></div>
                                 <div class="wishlist_content">
-                                    <div class="wishlist_text"><a href="#">Wishlist</a></div>
+                                    <div class="wishlist_text"><a href="my-wishlist.php">Wishlist</a></div>
                                     <div class="wishlist_count">115</div>
                                 </div>
                             </div>

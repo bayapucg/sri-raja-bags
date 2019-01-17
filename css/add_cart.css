@@ -151,6 +151,10 @@ tbody>tr>.details>a {
   width: 60px;
 }
 
+.category span{
+    font-size: 16px;
+}
+
 .shopping-cart-table>tbody>tr>.qty .input {
   width: 90px;
 }
