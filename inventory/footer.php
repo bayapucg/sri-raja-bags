@@ -1,7 +1,7 @@
         
         <!-- Main Footer -->
         <footer class="main-footer text-center">
-            <strong>Copyright &copy; 2019 <a href="#">Prachatech.com</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2019 <a href="http://prachatech.com/" target="_blank">Prachatech</a>.</strong> All rights reserved.
         </footer>
 
     </div>
@@ -22,6 +22,7 @@
     <!-- Validations -->
     <!--<script src="js/validations.js"></script>-->
 	
+    <!-- Data Table -->
     <script>
         $(document).ready(function(){
             $('#example1').DataTable();
@@ -35,13 +36,20 @@
     </script>
 	
 	<script>
-	//Date picker
-	$(function () {
-		$('#datepicker').datepicker({
-		  autoclose: true
-		});
-	});
-</script>
+        //Date picker
+        $(function () {
+            $('#datepicker').datepicker({
+              autoclose: true
+            });
+        });
+    </script>
+
+    <!-- Tool Tip -->
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+        });
+    </script>
 
 </body>
 

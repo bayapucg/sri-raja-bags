@@ -1,4 +1,8 @@
 /*-- Margins --*/
+.mx-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 .m-0{
 	margin: 0px !important;
 }
@@ -25,6 +29,12 @@
 }
 .mb-10{
 	margin-bottom: 10px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.mb-50{
+	margin-bottom: 50px;
 }
 .mb-0 {
     margin-bottom: 0px !important;
@@ -148,6 +158,9 @@
 /*-- Extras --*/
 .form-control[readonly]{
 	background-color: #fff;
+}
+.text-center{
+    text-align: center !important;
 }
 .text-danger{
 	color: #ff0000 ;
