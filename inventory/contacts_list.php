@@ -8,7 +8,7 @@
             Contacts
         </h1>
         <ol class="breadcrumb">
-            <li><i class="fa fa-dashboard"></i> Dashboard</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
             <li class="active">Contacts</li>
         </ol>
     </section>

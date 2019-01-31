@@ -8,8 +8,8 @@
             Payment Details
         </h1>
         <ol class="breadcrumb">
-            <li><i class="fa fa-dashboard"></i> Dashboard</li>
-            <li>Payment</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li><a href="payments_list.php">Payment</a></li>
             <li class="active">Payment Details</li>
         </ol>
     </section>

@@ -8,8 +8,8 @@
             Orders
         </h1>
         <ol class="breadcrumb">
-            <li><i class="fa fa-dashboard"></i> Dashboard</li>
-            <li>Orders</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li><a href="index.php">Orders</a></li>
             <li class="active">Order Details</li>
         </ol>
     </section>
@@ -23,6 +23,9 @@
                 <div class="box box-success">
 					<div class="box-header with-border">
 						<h4 class="box-title">Product <b>(Product Name)</b></h4>
+                        <a href="index.php" class="btn btn-info btn-sm pull-right">
+                            <i class="fa fa-arrow-left mr-5"></i>Back
+                        </a>
 					</div>
 
                     <!-- form start -->

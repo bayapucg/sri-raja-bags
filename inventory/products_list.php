@@ -8,7 +8,7 @@
             Products
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i>Dashboard</a></li>
             <li class="active">Products</li>
         </ol>
     </section>

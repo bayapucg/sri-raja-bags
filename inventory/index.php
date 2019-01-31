@@ -8,7 +8,7 @@
             Orders
         </h1>
         <ol class="breadcrumb">
-            <li><a href="view_order_details.php"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i>Dashboard</a></li>
             <li class="active">Orders</li>
         </ol>
     </section>

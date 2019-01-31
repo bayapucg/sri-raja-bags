@@ -1,21 +1,20 @@
 <?php include('header.php'); ?>
-<?php include('sidebar.php'); ?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-header container">
         <h1>
             Profile
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
-            <li><a href="#">Profile</a></li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+            <li class="active">Profile</li>
         </ol>
     </section>
 
     <!-- Main content -->
-    <section class="content container-fluid">
+    <section class="content container">
 
         <div class="row">
 

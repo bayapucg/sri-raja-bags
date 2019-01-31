@@ -1,22 +1,21 @@
 <?php include('header.php'); ?>
-<?php include('sidebar.php'); ?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-header container">
         <h1>
             Change Password
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
-            <li>Profile</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+            <li><a href="profile.php">Profile</a></li>
             <li class="active">Change Password</li>
         </ol>
     </section>
 
     <!-- Main content -->
-    <section class="content container-fluid">
+    <section class="content container">
 
         <div class="row">
 
@@ -44,8 +43,11 @@
                                 </div>
                             </div>
                             <div class="clearfix">&nbsp;</div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <button type="submit" class="btn btn-primary">Save Changes</button>
+                                <a href="profile.php" class="btn btn-md btn-info pull-right">
+                                    <i class="fa fa-arrow-left mr-5"></i> Back
+                                </a>
                             </div>
                         </div>
                     </form>

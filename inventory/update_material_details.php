@@ -8,8 +8,8 @@
             Update Material Details
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
-            <li>Material</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+            <li><a href="material_list.php">Material</a></li>
             <li class="active">Update Material Details</li>
         </ol>
     </section>

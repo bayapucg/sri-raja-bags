@@ -8,8 +8,8 @@
             Edit Contact Details
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
-            <li>Contacts</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+            <li><a href="contacts_list.php">Contacts</a></li>
             <li class="active">Edit Contact Details</li>
         </ol>
     </section>
