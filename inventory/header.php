@@ -45,38 +45,38 @@
 						<ul class="nav navbar-nav text-center">
 							<li class="">
 								<a href="index.php">
-									<i class="fab fa-houzz"></i><br class="sm-hide">
-									<span>SELL</span>
+									<i class="fa fa-shopping-cart"></i><br class="sm-hide">
+									<span>Orders</span>
 								</a>
 							</li>
 							<li>
-								<a href="make_list.php">
-									<i class="fas fa-asl-interpreting"></i><br class="sm-hide"> 
-									<span>MAKE</span>
+								<a href="products_list.php">
+									<i class="fas fa-cubes"></i><br class="sm-hide"> 
+									<span>Products</span>
 								</a>
 							</li>
 							<li>
-								<a href="buy_list.php">
-									<i class="fa fa-shopping-bag"></i><br class="sm-hide"> 
-									<span>BUY</span>
+								<a href="material_list.php">
+									<i class="fas fa-database"></i><br class="sm-hide"> 
+									<span>Material</span>
 								</a>
 							</li>
 							<li>
-								<a href="stock_list.php">
-									<i class="fa fa-cubes"></i><br class="sm-hide">
-									<span>STOCK</span>
+								<a href="#">
+									<i class="fas fa-file-alt"></i><br class="sm-hide">
+									<span>Reports</span>
 								</a>
 							</li>
 							<li>
-								<a href="items_list.php">
-									<i class="fas fa-shapes"></i><br class="sm-hide"> 
-									<span>ITEMS</span>
+								<a href="payments_list.php">
+									<i class="fas fa-money"></i><br class="sm-hide"> 
+									<span>Payment</span>
 								</a>
 							</li>							
 							<li>
 								<a href="contacts_list.php">
 									<i class="fas fa-user-friends"></i><br class="sm-hide">
-									<span>CONTACTS</span>
+									<span>Contacts</span>
 								</a>
 							</li>				
 						</ul>
@@ -105,10 +105,10 @@
 									<!-- Menu Footer-->
 									<li class="user-footer">
 										<div class="pull-left">
-											<a href="#" class="btn btn-default btn-flat">Profile</a>
+											<a href="profile.php" class="btn btn-default btn-flat">Profile</a>
 										</div>
 										<div class="pull-right">
-											<a href="#" class="btn btn-default btn-flat">Sign out</a>
+											<a href="login.php" class="btn btn-default btn-flat">Sign out</a>
 										</div>
 									</li>
 								</ul>
