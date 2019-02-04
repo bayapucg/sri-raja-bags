@@ -29,13 +29,21 @@
                 <h2 class="fs-title">Bag Section</h2>
                 <h3 class="fs-subtitle">&nbsp;</h3>
                 <div class="row">
-                    
+                    <div class="">
                         <div class="form-group col-md-6">
                             <label>Material Type</label>
                             <select class="form-control" name="mtype" id="mtype">
                                 <option value="0">Select</option>
                                 <option value="1">Nonwoven</option>
                                 <option value="2">Plastic</option>
+                            </select>
+                        </div> 
+						<div class="form-group col-md-6">
+                            <label>Handle  Type</label>
+                            <select class="form-control" name="mtype" id="mtype">
+                                <option value="0">D-Cut</option>
+                                <option value="1">Handle</option>
+                                <option value="2">S</option>
                             </select>
                         </div>
                         <div class="form-group col-md-6">
@@ -80,22 +88,45 @@
                                 <option value="3">110</option>
                             </select>
                         </div>
-                        
-                  
-
-
-                  <div class="form-group col-md-6">
-                            <label>Handle Type</label>
-                            <select class="form-control" name="handletype" id="handletype">
+                        <div class="form-group col-md-6">
+                            <label>Zip Color</label>
+                            <select class="form-control" name="zipcolor" id="zipcolor">
                                 <option value="0">Select</option>
-                                <option value="1">D-cut</option>
-                                <option value="2">Plastic</option>
-                                <option value="3">Woolen</option>
-                                <option value="4">Stick</option>
+                                <option value="1">Red</option>
+                                <option value="2">Green</option>
                             </select>
                         </div>
                         <div class="form-group col-md-6">
-                            <label>Handle Material Type</label>
+                            <label>Zip Size</label>
+                            <select class="form-control" name="zipsize" id="zipsize">
+                                <option value="0">Select</option>
+                                <option value="1">50</option>
+                                <option value="2">60</option>
+                                <option value="3">70</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Zip Quality</label>
+                            <select class="form-control" name="zipquality" id="zipquality">
+                                <option value="0">Select</option>
+                                <option value="1">First</option>
+                                <option value="2">Second</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Others</label>
+                            <select class="form-control" name="others" id="others">
+                                <option value="0">Select</option>
+                                <option value="1">Lays</option>
+                                <option value="2">Bits</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                  
+                        <div class="form-group col-md-6">
+                            <label>Handle Type</label>
                             <select class="form-control" name="handletype" id="handletype">
                                 <option value="0">Select</option>
                                 <option value="1">Cloth</option>
@@ -165,39 +196,6 @@
                                 <option value="3">110</option>
                             </select>
                         </div>
-						<div class="form-group col-md-6">
-                            <label>Zip Color</label>
-                            <select class="form-control" name="zipcolor" id="zipcolor">
-                                <option value="0">Select</option>
-                                <option value="1">Red</option>
-                                <option value="2">Green</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label>Zip Size</label>
-                            <select class="form-control" name="zipsize" id="zipsize">
-                                <option value="0">Select</option>
-                                <option value="1">50</option>
-                                <option value="2">60</option>
-                                <option value="3">70</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label>Zip Quality</label>
-                            <select class="form-control" name="zipquality" id="zipquality">
-                                <option value="0">Select</option>
-                                <option value="1">First</option>
-                                <option value="2">Second</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label>Others</label>
-                            <select class="form-control" name="others" id="others">
-                                <option value="0">Select</option>
-                                <option value="1">Lays</option>
-                                <option value="2">Bits</option>
-                            </select>
-                        </div>
                         <div class="form-group col-md-6">
                             <label>Stitching Type</label>
                             <select class="form-control" name="stitchtype" id="stitchtype">
@@ -214,7 +212,7 @@
                                 <option value="2">Red</option>
                             </select>
                         </div>
-                  
+                   
                 </div>
 
                 <input type="button" data-page="1" name="next" class="next action-button" value="Next" />
@@ -228,8 +226,8 @@
                 <h3 class="fs-subtitle">&nbsp;</h3>
 
                 <div class="row">
-                  
-                        <div class="form-group col-md-6">
+                    <div class="col-md-6">
+                        <div class="form-group">
                             <label>Printing Method</label>
                             <select class="form-control" name="printmethod" id="printmethod">
                                 <option value="0">Select</option>
@@ -238,7 +236,7 @@
                                 <option value="3">Roll</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Printing Color Type</label>
                             <select class="form-control" name="printcolor" id="printcolor">
                                 <option value="0">Select</option>
@@ -247,7 +245,7 @@
                                 <option value="3">Four</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Printing Style</label>
                             <select class="form-control" name="printstyle" id="printstyle">
                                 <option value="0">Select</option>
@@ -256,7 +254,7 @@
                                 <option value="3">One Side Printing</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Suggested Printing color</label>
                             <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="sugprintcolor" id="sugprintcolor" style="width: 100%;">
                                 <option value="0">Select</option>
@@ -265,7 +263,7 @@
                                 <option value="3">Black Blue</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Model Numbers</label>
                             <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="modelnumbers" id="modelnumbers" style="width: 100%;">
                                 <option value="0">Select</option>
@@ -275,10 +273,10 @@
                                 <option value="3">110</option>
                             </select>
                         </div>
-                   
+                    </div>
 
-
-                        <div class="form-group col-md-6">
+                    <div class="col-md-6">
+                        <div class="form-group">
                             <label>Sidepatty Printing</label>
                             <select class="form-control" name="sidepattyprint" id="">
                                 <option value="0">Select</option>
@@ -287,7 +285,7 @@
                                 <option value="3">None</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Sidepatty Printing Color</label>
                             <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="sidepattyprintcolor" id="" style="width: 100%;">
                                 <option value="0">Select</option>
@@ -296,7 +294,7 @@
                                 <option value="3">Black Blue</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Language</label>
                             <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="language" id="" style="width: 100%;">
                                 <option value="0">Select</option>
@@ -307,15 +305,15 @@
                                 <option value="5">Tamil</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Printing Cost</label>
                             <input type="text" class="form-control" name="printcost" id="">
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label>Block Charges</label>
                             <input type="text" class="form-control" name="blockCharges" id="">
                         </div>
-                  
+                    </div>
                 </div>
 
                 <input type="button" data-page="2" name="previous" class="previous action-button" value="Previous" />
