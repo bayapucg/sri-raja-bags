@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sri Raja Bags</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+</head>
+
+<body>
+
+    <div class="info">
+        <h1>Sri Raja Bags</h1>
+    </div>
+
+    <div class="container">
+        <form class="steps" accept-charset="UTF-8" enctype="multipart/form-data" novalidate="">
+            <ul id="progressbar">
+                <li class="active" style="margin-left: 20%;">Bag Section</li>
+                <li>Printing Section</li>
+                <li>Qty & Cost Section</li>
+            </ul>
+
+            <!-- USER INFORMATION FIELD SET -->
+            <fieldset>
+                <h2 class="fs-title">Bag Section</h2>
+                <h3 class="fs-subtitle">&nbsp;</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Material Type</label>
+                            <select class="form-control" name="mtype" id="mtype">
+                                <option value="0">Select</option>
+                                <option value="1">Nonwoven</option>
+                                <option value="2">Plastic</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Quality</label>
+                            <select class="form-control" name="quality" id="quality">
+                                <option value="0">Select</option>
+                                <option value="1">Dotted</option>
+                                <option value="2">Small dots</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Layout</label>
+                            <select class="form-control" name="layout" id="layout">
+                                <option value="0">Select</option>
+                                <option value="1">Horizontal</option>
+                                <option value="2">Vertical</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Bag Size</label>
+                            <select class="form-control" name="bsize" id="bsize">
+                                <option value="0">Select</option>
+                                <option value="1">9x11</option>
+                                <option value="2">10x14</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Bag Color</label>
+                            <select class="form-control" name="bcolor" id="bcolor">
+                                <option value="0">Select</option>
+                                <option value="1">Ivory</option>
+                                <option value="2">White</option>
+                                <option value="3">R.Green</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Bag GSM</label>
+                            <select class="form-control" name="bgsm" id="bgsm">
+                                <option value="0">Select</option>
+                                <option value="1">70</option>
+                                <option value="2">90</option>
+                                <option value="3">110</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Zip Color</label>
+                            <select class="form-control" name="zipcolor" id="zipcolor">
+                                <option value="0">Select</option>
+                                <option value="1">Red</option>
+                                <option value="2">Green</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Zip Size</label>
+                            <select class="form-control" name="zipsize" id="zipsize">
+                                <option value="0">Select</option>
+                                <option value="1">50</option>
+                                <option value="2">60</option>
+                                <option value="3">70</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Zip Quality</label>
+                            <select class="form-control" name="zipquality" id="zipquality">
+                                <option value="0">Select</option>
+                                <option value="1">First</option>
+                                <option value="2">Second</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Others</label>
+                            <select class="form-control" name="others" id="others">
+                                <option value="0">Select</option>
+                                <option value="1">Lays</option>
+                                <option value="2">Bits</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Handle Type</label>
+                            <select class="form-control" name="handletype" id="handletype">
+                                <option value="0">Select</option>
+                                <option value="1">Cloth</option>
+                                <option value="2">Plastic</option>
+                                <option value="3">Woolen</option>
+                                <option value="4">Stick</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Handle Size</label>
+                            <select class="form-control" name="handlesize" id="handlesize">
+                                <option value="0">Select</option>
+                                <option value="1">10x30</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Handle Color</label>
+                            <select class="form-control" name="handlecolor" id="handlecolor">
+                                <option value="0">Select</option>
+                                <option value="1">Ivory</option>
+                                <option value="2">White</option>
+                                <option value="3">R.Green</option>
+                                <option value="4">Printed Red</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Handle GSM</label>
+                            <select class="form-control" name="handlegsm" id="handlegsm">
+                                <option value="0">Select</option>
+                                <option value="1">70</option>
+                                <option value="2">90</option>
+                                <option value="3">110</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Sidepatty Type</label>
+                            <select class="form-control" name="sidepattytype" id="sidepattytype">
+                                <option value="0">Select</option>
+                                <option value="1">Piping</option>
+                                <option value="2">Common</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Sidepatty Size</label>
+                            <select class="form-control" name="sidepattysize" id="sidepattysize">
+                                <option value="0">Select</option>
+                                <option value="1">4</option>
+                                <option value="2">6</option>
+                                <option value="3">8</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Sidepatty Color</label>
+                            <select class="form-control" name="sidepattycolor" id="sidepattycolor">
+                                <option value="0">Select</option>
+                                <option value="1">Ivory</option>
+                                <option value="2">White</option>
+                                <option value="3">R.Green</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Sidepatty GSM</label>
+                            <select class="form-control" name="sidepattygsm" id="sidepattygsm">
+                                <option value="0">Select</option>
+                                <option value="1">70</option>
+                                <option value="2">90</option>
+                                <option value="3">110</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Stitching Type</label>
+                            <select class="form-control" name="stitchtype" id="stitchtype">
+                                <option value="0">Select</option>
+                                <option value="1">Single Side</option>
+                                <option value="2">Double Side</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Stitching Thread Color</label>
+                            <select class="form-control" name="stitchcolor" id="stitchcolor">
+                                <option value="0">Select</option>
+                                <option value="1">White</option>
+                                <option value="2">Red</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="button" data-page="1" name="next" class="next action-button" value="Next" />
+            </fieldset>
+
+
+
+            <!-- ACQUISITION FIELD SET -->
+            <fieldset>
+                <h2 class="fs-title">Printing Section</h2>
+                <h3 class="fs-subtitle">&nbsp;</h3>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Printing Method</label>
+                            <select class="form-control" name="printmethod" id="printmethod">
+                                <option value="0">Select</option>
+                                <option value="1">Offset</option>
+                                <option value="2">Screen</option>
+                                <option value="3">Roll</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Printing Color Type</label>
+                            <select class="form-control" name="printcolor" id="printcolor">
+                                <option value="0">Select</option>
+                                <option value="1">Single</option>
+                                <option value="2">Double</option>
+                                <option value="3">Four</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Printing Style</label>
+                            <select class="form-control" name="printstyle" id="printstyle">
+                                <option value="0">Select</option>
+                                <option value="1">Half and Half</option>
+                                <option value="2">Same Image & Different Printing</option>
+                                <option value="3">One Side Printing</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Suggested Printing color</label>
+                            <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="sugprintcolor" id="sugprintcolor" style="width: 100%;">
+                                <option value="0">Select</option>
+                                <option value="1">Red</option>
+                                <option value="2">Green</option>
+                                <option value="3">Black Blue</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Model Numbers</label>
+                            <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="modelnumbers" id="modelnumbers" style="width: 100%;">
+                                <option value="0">Select</option>
+                                <option value="1">D11</option>
+                                <option value="2">B12</option>
+                                <option value="3">C18</option>
+                                <option value="3">110</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Sidepatty Printing</label>
+                            <select class="form-control" name="sidepattyprint" id="">
+                                <option value="0">Select</option>
+                                <option value="1">Digital Print</option>
+                                <option value="2">Single Color</option>
+                                <option value="3">None</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Sidepatty Printing Color</label>
+                            <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="sidepattyprintcolor" id="" style="width: 100%;">
+                                <option value="0">Select</option>
+                                <option value="1">Red</option>
+                                <option value="2">Green</option>
+                                <option value="3">Black Blue</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Language</label>
+                            <select class="form-control select2" multiple="multiple" data-placeholder="Select" name="language" id="" style="width: 100%;">
+                                <option value="0">Select</option>
+                                <option value="1">Telugu</option>
+                                <option value="2">English</option>
+                                <option value="3">Kannada</option>
+                                <option value="4">Hindi</option>
+                                <option value="5">Tamil</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Printing Cost</label>
+                            <input type="text" class="form-control" name="printcost" id="">
+                        </div>
+                        <div class="form-group">
+                            <label>Block Charges</label>
+                            <input type="text" class="form-control" name="blockCharges" id="">
+                        </div>
+                    </div>
+                </div>
+
+                <input type="button" data-page="2" name="previous" class="previous action-button" value="Previous" />
+                <input type="button" data-page="2" name="next" class="next action-button" value="Next" />
+            </fieldset>
+
+            <!-- RETENTION FIELD SET -->
+            <fieldset>
+                <h2 class="fs-title">Quantity & Cost Section</h2>
+                <h3 class="fs-subtitle">&nbsp;</h3>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Quantity (in kg's)</label>
+                            <input type="text" class="form-control" name="quantitykg" placeholder="in kg's">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Quantity (required no.of bags per kg)</label>
+                            <input type="text" class="form-control" name="quantityperkg" id="" placeholder="required no.of bags per kg">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td><b>Estimated Cost</b></td>
+                            <td>2000.00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Actual Cost</b></td>
+                            <td>1800.00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Tax</b></td>
+                            <td>200.00</td>
+                        </tr>
+                        <tr>
+                            <td><b>Nett Price</b></td>
+                            <td>2200.00</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Transport</label>
+                            <input type="text" class="form-control" name="transport">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Comments</label>
+                            <input type="text" class="form-control" name="commenthere" id="">
+                        </div>
+                    </div>
+                </div>
+
+                <input type="button" data-page="5" name="previous" class="previous action-button" value="Previous" />
+    <!--            <input id="submit" class="hs-button primary large action-button next" type="submit" value="Submit">-->
+            </fieldset>
+        </form>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+    <script src='https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/select2.full.min.js"></script>
+
+
+    <script>
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2').select2()
+  });
+    </script>
+</body>
+
+</html>
